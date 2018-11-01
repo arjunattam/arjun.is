@@ -1,6 +1,8 @@
-Page: yes
-
-# About
+---
+layout: page
+title: About
+permalink: /about/
+---
 
 My name is Arjun Attam, and this is my personal website. I'm interested in technology, internet businesses, and the principles of economics. Some of my recent work includes
 
