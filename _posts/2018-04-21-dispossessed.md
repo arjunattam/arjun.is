@@ -1,8 +1,11 @@
-Tags: books, decentralization, blockchain
+---
+layout: post
+title: "Idealism, anarchism and decentralization"
+date: 2018-04-12 12:00:00 +0530
+categories: books decentralization blockchain
+---
 
-# Idealism, anarchism and decentralization
-
-![The Dispossessed by Ursula Le Guin](_img/dispossessed.jpg)
+![The Dispossessed by Ursula Le Guin](/assets/dispossessed.jpg)
 
 Anarres is a planet in Ursula Le Guin's The Dispossessed — a world built on anarchism: the rejection of authority and hierarchies. 150 years in, it resembles little like what was imagined. While newer generations can recite the founding principles, bureaucracy has taken over for all practical purposes. Says Bedap, a doubter in the book:
 
@@ -16,21 +19,17 @@ I would extend Bedap's claim: in addition to the will to dominate, the need for 
 
 My novice understanding around the rise of blockchains and decentralization faces a similar dilemma. (What else is science fiction but a way to tweak constraints and reimagine what the world would look like?) While I understand how decentralization is better (recommended: [Vitalik Buterin on decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274)), I don't know if centralization is the norm because:
 
-* decentralization was impossible, or
-* decentralization was not required (or is at odds with the human existence)
+- decentralization was impossible, or
+- decentralization was not required (or is at odds with the human existence)
 
 There are two ways to look at this: in aggregate or for a use-case. Let's start with an easy use-case for now: moving capital offshore to tax havens. This is a use-case that clearly needs secrecy and privacy, and centralization is incompatible with those goals. Decentralization was impossible, and that changes with the blockchain: see [Monero](https://getmonero.org).
 
 The question becomes complicated at the aggregate level, and I'm not sure of the answer. The answer might lie in understanding why the antithesis of blockchains (traditional corporations) exist.
 
-![Decentralization, from Vitalik Buterin's piece.](_img/decentralization-grid.jpeg)
+![Decentralization, from Vitalik Buterin's piece.](/assets/decentralization-grid.jpeg)
 
 From [this wiki page](https://en.wikipedia.org/wiki/Theory_of_the_firm): firms exist as an alternative to the market-price mechanism when it is more efficient to produce in a non-market environment. If you look at the employer-employee relationship: this means frequently transacting in the labour market requires costly coordination, and a firm subverts that by establishing a long-term contract between employer-employee. So the firm exists because it is the cheapest way to get long-term coordination. But then the cost of coordination is a function of the market though, and the blockchain changes it.
 
 And we have seen long-term cooperation outside the firm — developers coordinate and build long term projects in the open source world. However, it is not clear to me whether the open source model is a counter-example to firms, considering how the most important open source project (Linux) is overlooked by the [Linux Foundation](https://en.wikipedia.org/wiki/Linux_Foundation), which itself consists of 800+ corporate members. As it stands right now, open source is complementary to the tranditional corporation.
 
 Life is so entrenched in centralization, and it seems difficult to know which is correct: is the world centralized by choice or necessity? There's obviously a lot to unravel here, and there's hopefully more I will have to share.
-
----
-
-Thoughts? — let's talk on [Twitter](https://twitter.com/arjunattam).
