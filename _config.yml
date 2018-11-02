@@ -7,7 +7,7 @@ baseurl: "/" # the subpath of your site
 url: "https://arjun.is"
 twitter_username: arjunattam
 github_username:  arjun27
-
+google_analytics: UA-76439340-1
 permalink: /:year/:title
 
 # Build settings
