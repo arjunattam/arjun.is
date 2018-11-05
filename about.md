@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Arjun Attam, and **inter alia** is my personal website. I'm interested in technology, internet businesses, and the principles of economics.
+Hi, my name is Arjun Attam, and **Inter Alia** is my personal website. I'm interested in technology, internet businesses, and the principles of economics.
 
 I'm working on:
 
