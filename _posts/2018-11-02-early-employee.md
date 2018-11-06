@@ -1,7 +1,9 @@
 ---
-published: false
+layout: post
+title: "Heuristic for early employees"
+date: 2018-11-02 12:00:00 +0530
+categories: startups
 ---
-# Heuristic for early employees
 
 [Social Capital's Annual Letter 2018](https://s3-us-west-2.amazonaws.com/socialcapital-annual-letters/Social+Capital+Interim+Annual+Letter,+2018.pdf) has an interesting section on how incentives in the startup ecosystem have evolved with increasing user acquisition cost. VCs prefer higher valuations, which enable them to raise larger funds, and consequently make more management fees (2% of fund size). This introduces hidden costs for two participants: LPs of these funds, and startup employees:
 
@@ -17,10 +19,10 @@ From the ~20 early stage startups that I have been able to see closely, I have d
 
 Co-founder conflict is fairly common, and an early employee can find themselves stuck between a rock and a hard place when that happens. In more startups the co-founder relationship is not actually collaborative: co-founders challenge each other, handle disagreement with mutual respect. Getting to understand the co-founder relationship is critical, and you must have one-on-ones with co-founders. In those conversations, ask the following:
 
-* When was the last disagreement with the other co-founders? Walk me through that situation.
-* What is one thing you would do differently but have not been able to? What are the challenges that you ran into?
+- When was the last disagreement with the other co-founders? Walk me through that situation.
+- What is one thing you would do differently but have not been able to? What are the challenges that you ran into?
 
-An unequal co-founder relationship is fairly common, with one dominate co-founder. This co-founder should have access to customers. For example, if the startup is building a SaaS tool for pharma R&D, the dominant co-founder needs to have deep connections in the industry. If the dominant co-founder does not own customer relationships, you have a red flag.
+An unequal co-founder relationship is fairly common, with one dominant co-founder. This co-founder should be the access to customers. For example, if the startup is building a SaaS tool for pharma R&D, the dominant co-founder needs to have deep connections in the industry. If the dominant co-founder does not own customer relationships, you have a red flag.
 
 ## Product development process
 
@@ -28,8 +30,8 @@ Finding product-market fit is difficult, but the science around it has matured o
 
 To evalute this, candidates must go over the product definition documents, and if possible, participate in a real product prioritisation discussion. In one-on-one conversations during interviews, ask the following:
 
-* How many potential customers did you talk to before defining the MVP?
-* What was a feature that was removed in the MVP definition?
+- How many potential customers did you talk to before defining the MVP?
+- What was a feature that was removed in the MVP definition?
 
 Learnings from this process impact not just product management, and hence are critical for early employee up-skilling.
 
