@@ -8,10 +8,13 @@ Hi, my name is Arjun Attam. 👋
 
 ![Arjun Attam]({{site.baseurl}}/arjun.jpg){: .align-left}
 
-Inter Alia—or among other things—is my personal space to explore topics that catch my fancy: technology, books, internet businesses, and economics.
+**Inter Alia**—or among other things—is my personal space to explore topics that catch my fancy: technology, books, internet businesses, and economics.
 
-Currently, I am working on developer tools: specifically on how developers collaborate over code, in times when teams are remote, and product dev cycles are lean. Check out [Rubberduck](https://www.rubberduck.io): a browser extension to speed up code reviews on GitHub, and [Team Chat](https://github.com/karigari/vscode-chat): an editor extension for easier, contextual collaboration for developers.
+I build **developer tools**: specifically to help developers collaborate over their code. With teams going remote and product dev cycles becoming leaner, I feel gains in developer collaboration significantly enhance engineering output. You can find my work at:
 
-Previously, I have worked as a freelance product manager, customer success lead, software developer, and management consultant. A quick web search should give you more details if that interests you.
+* [Rubberduck](https://www.rubberduck.io): a browser extension to speed up code reviews on GitHub.
+* [Team Chat](https://github.com/karigari/vscode-chat): an editor extension for easier, contextual collaboration for developers.
 
-I'm as [@arjunattam](https://twitter.com/arjunattam/) on Twitter and my DMs are open for conversations.
+Previously, I have worked as a freelance product manager, customer success lead, software developer, and management consultant. A quick web search will give you more details if that interests you.
+
+I'm [@arjunattam](https://twitter.com/arjunattam/) on Twitter and my DMs are open for conversations.
