@@ -1,11 +1,14 @@
 ---
 published: false
 ---
-# Declarative file systems
 
-One of the most joyful programming experiences that I have had lately has been using React to build user interfaces. Web UIs were the first things I had learnt to build (back in 200x): I used Dreamweaver, wrote some CSS by hand, and when HTML elements had to be hidden and revealed, I picked up jQuery. Back then I thought jQuery was amazing, but now I know I did not know any better.
+# Declarative computing interfaces
 
-During my first few months of React I was trying to pin down what made me like the framework. React is a lot of things, and in my opinion, declarative is the defining characteristic. Especially in contrast to jQuery, which I now realise is imperative. Examples ([source](https://tylermcginnis.com/imperative-vs-declarative-programming/)):
+One of my recent joyful programming experiences has been using React to build user interfaces. The last time I built web UIs was way back when any complex was off-loaded to jQuery, and Internet Explorer 6 couldn't be just ignored. Web standards have improved a lot since then, but there was something about React that made it joyful, and not merely _not irritating_.
+
+I was trying to pin down what that was: React is a lot of things, and in my opinion, declarative programming is the defining characteristic. Especially when contrasted to jQuery, which I then realised is imperative. Defining them in broad strokes, declarative programming is telling the computer **what to do**, whereas imperative tells **how to do**. Examples ([source](https://tylermcginnis.com/imperative-vs-declarative-programming/)):
+
+jQuery (imperative):
 
 ```
 $("#btn").click(function() {
@@ -16,6 +19,8 @@ $("#btn").click(function() {
 })
 ```
 
+React (declarative):
+
 ```
 <Btn
   onToggleHighlight={this.handleToggleHighlight}
@@ -24,38 +29,42 @@ $("#btn").click(function() {
 </Btn>
 ```
 
-In broad strokes, the distinction between imperative (jQuery) and declarative (React) is telling the computer **how to do** versus **what to do**. In telling the computer what needs to be done, the underlying implementation is abstracted out.
+Syntactical differences aside, declarative code abstracts out implementation steps, whereas imperative code walks through those steps.
 
-Why is declarative better:
-- reason 1
-- reason 2
+I feel the distinction of telling the computer "what to do" versus "how to do" is more generally applicable to computing interfaces, and not restricted to the design of programming APIs. (Perhaps the domain of UX uses different terms to talk about this—and I would happy to be corrected if that is the case.)
 
-This distinction in interface design does not need to restrict to programming APIs. Computing interfaces in general can be imperative or declarative. (Perhaps there are different terms in UX research/design that already emcompass this distinction, and I would be happy to be corrected.) This realization came about through a conversation where I was asked whether the menu bar app for Rubberduck will be declarative or imperative. Honestly, I don't even remember how I answered it, because I was still wrapping my head around the distinction. The more I thought about it though, I felt it helped me navigate through a lot more.
+While declarative programming is a bit [vague to define](http://wiki.c2.com/?DeclarativeProgramming), the one critical characteristic is the order of execution. Because imperative code is expressed with a sequence of instructions, the ordering is crucial. Changing the sequence would result in a vast difference in outcomes. This implies, that imperative instructions can only be properly understood in the context of the previous instruction.
 
-To elaborate this further, let's look at how the file systems works on Windows and iOS. To begin with, let's assume the [Files app](https://en.wikipedia.org/wiki/Files_(Apple)) does not exist. We will come back to that later. To overlay the earlier bit on interface design, I want to discuss how the files management on Windows is imperative, whereas on iOS it is declarative. Compare the two below:
+To elaborate this in the context of other computing interfaces, I want to look at how users interact with files in Windows and iOS. This distinction becomes very real when viewed from the vantage point of inexperienced users, like my parents.
 
 ![Open file on MS Word 2010, Windows](https://www.homeandlearn.co.uk/word2007_2010/images/word_2010/file_open.gif)
 
 ![Notes app, iOS 7](http://cdn.iphonehacks.com/wp-content/uploads/2013/06/notes-ios-7-app.jpeg)
 
-Microsoft Word on Windows and the Notes app on iOS are obviously very different applications. Here I want to use them as examples to show the differences in managing files. While Windows requires you to open, close, save your work to disk (in a file), iOS makes it more opaque. Your documents (or files) are listed below, and the underlying file system is not even accessible.
+File management in Windows is more imperative: in the context of a use-case (text editing in this case), the user has to tell the computer various steps: click on open, locate the file, select file, edit text, save the file. The experience on the Notes app is more declarative: the file system is opaque, and the emphasis is on the job to be done: edit text.
 
-This distinction contributes to the simplicity and popularity of iOS.
+Perhaps no one explained it better than Steve Jobs ([watch the video](https://www.youtube.com/watch?v=xES5-qDv-4Q)):
 
-Having access to the files gives a lot more freedom: you can drag them around, use different applications...
+> in every user interface study we’ve ever done […], [we found] it’s pretty easy to learn how to use these things till you hit the file system and then the learning curve goes vertical. So you ask yourself, **why is the file system the face of the OS**? Wouldn’t it be better if there was a better way to find stuff?
+>
+> Now, e-mail, there’s always been a better way to find stuff. You don’t keep your e-mail on your file system, right? **The app manages it**. And that was the breakthrough, as an example, in iTunes. You don’t keep your music in the file system, that would be crazy. You keep it in this app that knows about music and knows how to find things in lots of different ways.
 
-But I would argue it's still the worse way of doing things. Anecdotally, I have never used the Files app. But user behaviour has been heavily influenced by how Windows (+ macOS) works. The file system is the face of the OS, and I have seen people work around the problem. For example, my dad still thinks of "saving" things. He does this by taking screenshots of anything and everything: a plane ticket -> screenshot it.
+By hiding the "how" (how your content is stored on persistent storage), the application becomes more usable. The burden of implementation steps is lifted. You don't need to remember the precise steps to open, locate and save your file. On iOS, users don't lose their work because they forgot to save it.
 
-https://www.youtube.com/watch?v=xES5-qDv-4Q
+It is not fair to compare MS Word and the Notes app on capabilities, and perhaps it's harder to design declarative interfaces: because these interfaces require designing abstractions.
 
-https://oleb.net/blog/2012/06/steve-jobs-on-the-file-system/
+While it can be argued that declarative interfaces are better, it is also difficult to change existing user behaviour. Consider how my father uses his iPhone: everything that is of consequence is "saved" with a screenshot. A flight ticket sent via email? Saved as a screenshot. Noteworthy web page? Saved as a screenshot. I believe this behaviour is triggered by the need to save everything, and if you forget, your work will be lost forever.
 
-> in every user interface study we’ve ever done […], [we found] it’s pretty easy to learn how to use these things ‘til you hit the file system and then the learning curve goes vertical. So you ask yourself, why is the file system the face of the OS? Wouldn’t it be better if there was a better way to find stuff?
+The other advantage of imperative files management is that it makes sharing files between apps easier. For instance, if you want to send your Word output by email, you can lift it off the file system. iOS solves this with the share sheet: apps expose "extensions", which can be accessed through other apps. These extensions carry over state.
 
-> Now, e-mail, there’s always been a better way to find stuff. You don’t keep your e-mail on your file system, right? The app manages it. And that was the breakthrough, as an example, in iTunes. You don’t keep your music in the file system, that would be crazy. You keep it in this app that knows about music and knows how to find things in lots of different ways. Same with photos: we’ve got an app that knows all about photos. And these apps manage their own file storage. […]
+Another example of imperative versus declarative is in version control. Using git commands in the terminal is an imperative interface; git workflow UIs convert the same tasks into declarative interfaces.
 
-> And eventually, the file system management is just gonna be an app for pros and consumers aren’t gonna need to use it.
+====
+"Programming where problems are described, or conditions on a solution are described, and the computer finds a solution."
 
-It's an interesting space to watch out for, considering how the iOS is maturing to become a proper PC replacement. With the Files ap
+==
+Is it really required for Windows to show drives `C:` and `D:` and expose disk partitions?
 
+"Abstraction is the elimination of the irrelevant and the amplification of the essential" - https://stackoverflow.com/questions/30824391/is-my-understanding-of-abstraction-correct
 
+Interface is closer to the job to be done,
