@@ -33,7 +33,7 @@ In an attempt to reduce context switches, I built the [Team Chat extension for V
 
 ## Next steps
 
-It was amazing to see Rubberduck and Team Chat get user love and grow, and to find a vision statement that inspired me. I knew one potential route to take: fundraise and build a team, but for some reason it didn't feel right. I don't which one of these it was: not having a co-founder, being burnt out from my last job in a venture backed startup, or just worrying that I had spent 3.5+ years in early stage with little to show for it.
+It was amazing to see Rubberduck and Team Chat get user love and grow, and to find a vision statement that inspired me. I knew one potential route to take: fundraise and build a team, but for some reason it didn't feel right. I don't know which one of these it was: not having a co-founder, being burnt out from my last job in a venture backed startup, or just worrying that I had spent 3.5+ years in early stage with little to show for it.
 
 Fortunately for me, my experiments caught the attention of my future manager at Microsoft (I've bookmarked the [issue comment on GitHub](https://github.com/MicrosoftDocs/live-share/issues/69#issuecomment-400335051) that triggered it). Over the following conversations I realized how aligned we were over the vision, and I found a team that wanted to build the best developer tools in the world. It felt like I had found my crowd.
 
