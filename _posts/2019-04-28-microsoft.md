@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 layout: post
 title: "Lucked into Microsoft"
 date: 2019-04-28 20:00:00 -0700
