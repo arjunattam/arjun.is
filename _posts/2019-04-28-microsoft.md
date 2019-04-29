@@ -4,7 +4,7 @@ title: "Lucked into Microsoft"
 date: 2019-04-28 20:00:00 -0700
 ---
 
-My 15 year old Linux fanboy self would have never believed if he was told that one day he would work at Microsoft. Turns out that is exactly what happened. Here's how.
+My 15 year old Linux fanboy self would have never believed it if he was told that one day he would work at Microsoft. Turns out that is exactly what happened. Here's how.
 
 ## Code reviews and Rubberduck
 
@@ -14,7 +14,7 @@ At the same time, code reviews are a lot of work, and the tools don't make it an
 
 Rubberduck grew well ([trended on Product Hunt](https://www.producthunt.com/posts/rubberduck) etc.), and it was fulfilling to see the early set of developers use it day in, day out. Scaling usage beyond the initial users became challenging, because:
 
-1. Resistance to private code access: Only a few teams were comfortable a small unknown startup touching their source code; "trust" did not scale.
+1. Resistance to private code access: Only a few teams were comfortable with a small unknown startup touching their source code; "trust" did not scale.
 2. Non-trivial infra: Beneath the surface, Rubberduck was like operating multiple IDE instances in the cloud. The service would break all the time, leaving new users with the impression that it never worked.
 
 Rubberduck had quickly gone beyond the prototyping phase, and a team of one was not going to cut it anymore.
