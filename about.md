@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 published: true
 ---
 Hi, my name is Arjun Attam. 👋
 
-![Arjun Attam]({{site.baseurl}}/arjun.jpg){: .align-left}
+![Arjun Attam](/images/arjun.jpg)
 
 **Inter Alia**—or among other things—is my personal space to explore topics that catch my fancy: technology, books, internet businesses, and economics.
 

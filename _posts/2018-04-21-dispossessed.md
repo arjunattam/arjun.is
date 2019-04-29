@@ -5,7 +5,7 @@ date: 2018-04-12 12:00:00 +0530
 categories: books decentralization blockchain
 ---
 
-![The Dispossessed by Ursula Le Guin](/assets/dispossessed.jpg)
+![The Dispossessed by Ursula Le Guin](/images/dispossessed.jpg)
 
 Anarres is a planet in Ursula Le Guin's The Dispossessed — a world built on anarchism: the rejection of authority and hierarchies. 150 years in, it resembles little like what was imagined. While newer generations can recite the founding principles, bureaucracy has taken over for all practical purposes. Says Bedap, a doubter in the book:
 
@@ -26,7 +26,7 @@ There are two ways to look at this: in aggregate or for a use-case. Let's start 
 
 The question becomes complicated at the aggregate level, and I'm not sure of the answer. The answer might lie in understanding why the antithesis of blockchains (traditional corporations) exist.
 
-![Decentralization, from Vitalik Buterin's piece.](/assets/decentralization-grid.jpeg)
+![Decentralization, from Vitalik Buterin's piece.](/images/decentralization-grid.jpeg)
 
 From [this wiki page](https://en.wikipedia.org/wiki/Theory_of_the_firm): firms exist as an alternative to the market-price mechanism when it is more efficient to produce in a non-market environment. If you look at the employer-employee relationship: this means frequently transacting in the labour market requires costly coordination, and a firm subverts that by establishing a long-term contract between employer-employee. So the firm exists because it is the cheapest way to get long-term coordination. But then the cost of coordination is a function of the market though, and the blockchain changes it.
 
