@@ -1,12 +1,33 @@
 <!-- Override default footer.html implementation to add email subscriber form -->
 <!-- Docs: https://jekyllrb.com/docs/themes/#overriding-theme-defaults -->
 
+
+<div class="wrapper">
+  <h2>Subscribe</h2>
+    <div id="mc_embed_signup">
+        <form action="https://arjun.us19.list-manage.com/subscribe/post?u=3cd13cdcd28cbaddc5984bc6b&amp;id=7ae3e22a0a"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+          novalidate>
+          <div id="mc_embed_signup_scroll">
+
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
+              required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3cd13cdcd28cbaddc5984bc6b_7ae3e22a0a"
+                tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                class="button"></div>
+          </div>
+        </form>
+    </div>
+</div>
+
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -22,6 +43,8 @@
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
         </ul>
+
+        <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -31,22 +54,7 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
 
-        <div id="mc_embed_signup">
-          <form action="https://arjun.us19.list-manage.com/subscribe/post?u=3cd13cdcd28cbaddc5984bc6b&amp;id=7ae3e22a0a"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-            novalidate>
-            <div id="mc_embed_signup_scroll">
-
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
-                required>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3cd13cdcd28cbaddc5984bc6b_7ae3e22a0a"
-                  tabindex="-1" value=""></div>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                  class="button"></div>
-            </div>
-          </form>
-        </div>
+        
 
       </div>
     </div>

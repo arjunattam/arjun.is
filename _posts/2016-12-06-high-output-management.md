@@ -19,7 +19,7 @@ Even before I read HOM, I could describe each of the terms below through a vague
 - **know-how managers**: knowledge specialists, with high potential to influence neighboring people and organizations. Management output isn't limited to supervision (handed over by authority), it can also come from mere influence (gained by knowledge).
 - **management-by-objectives**: management by defining objective and breaking it down into key results, that can be tracked and used to make adjustments.
 - **task-relevant maturity**: variable that defines the most suitable management style. High TRM (not the same as general competence) of subordinate implies minimal involvement management, low TRM implies structured management that answers "what", "when", "how".[^1]
-- **control modes**: means to control behavior in a work environment. The two orthogonal variables that determine choice of mode are individual motivation (self-interest vs group interest) and CUA (complexity, uncertainty, ambiguity) involved, leading to a [2x2](/assets/control-modes.jpg).
+- **control modes**: means to control behavior in a work environment. The two orthogonal variables that determine choice of mode are individual motivation (self-interest vs group interest) and CUA (complexity, uncertainty, ambiguity) involved, leading to a [2x2](/images/control-modes.jpg).
 
 ## Questions of organization
 
