@@ -32,6 +32,18 @@ body {
     min-height: 25px;
 }
 
+.site-footer {
+    border-top: none;
+    padding: 0;
+}
+
+.footer-col-wrapper {
+    border-top: 3px solid #f3f4fa;
+    margin-top: 30px;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
 .title a {
     text-decoration: none;
     font-weight: bold;
