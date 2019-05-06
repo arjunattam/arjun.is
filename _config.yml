@@ -1,18 +1,17 @@
-title: Inter Alia
+title: Arjun Attam
 author: Arjun Attam
 email: arjun@attam.in
-description: >- # this means to ignore newlines until "baseurl:"
-  Among other things.
+
 baseurl: "/" # the subpath of your site
 url: "https://arjun.is"
+permalink: /:year/:title
+
 twitter_username: arjunattam
 github_username:  arjun27
 google_analytics: UA-76439340-1
-permalink: /:year/:title
 
 # Build settings
 markdown: kramdown
-# theme: minima
-# theme: jekyll-theme-primer
+theme: minima
 plugins:
   - jekyll-feed

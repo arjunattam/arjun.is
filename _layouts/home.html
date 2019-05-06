@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <h2>About me</h2>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <p>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <p>
+      Find me on <a href="https://www.twitter.com/arjunattam">@arjunattam</a>.
+    </p>
+  </div>
+
+  {%- if site.posts.size > 0 -%}
+    <h2>{{ page.list_title | default: "Blog posts" }}</h2>
+    <ul class="post-list">
+
+      {%- for post in site.posts -%}
+      <li style="margin-bottom: 0">
+        {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
+        <span class="post-meta" style="font-family: Monaco, monospace; font-size: 80%;">{{ post.date | date: date_format }}</span>
+        &raquo;
+        <span>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </span>
+        
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+
+    </ul>
+  {%- endif -%}
+
+</div>
