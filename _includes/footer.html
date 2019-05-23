@@ -4,7 +4,7 @@
 <footer class="site-footer h-card">
     <div class="wrapper">
         <div class="home">
-            <h2>Subscribe</h2>
+            <h2>Subscribe via email</h2>
             <div id="mc_embed_signup">
                 <form
                     action="https://arjun.us19.list-manage.com/subscribe/post?u=3cd13cdcd28cbaddc5984bc6b&amp;id=7ae3e22a0a"
@@ -22,10 +22,6 @@
                     </div>
                 </form>
             </div>
-
-            <p class="feed-subscribe"><svg class="svg-icon orange">
-                    <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                </svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
         </div>
     </div>
 
@@ -61,7 +57,19 @@
             </div>
 
             <div class="footer-col footer-col-2">
-                <a href="https://github.com/arjun27/arjun.is">View source</a>
+                <ul class="contact-list">
+                    <li>
+                        <a href="https://github.com/arjun27/arjun.is">View source</a>
+                    </li>
+                    <li>
+                        <a href="{{ "/feed.xml" | relative_url }}">RSS feed</a>
+
+                        <!-- Commenting out the RSS icon till we know better -->
+                        <!-- <svg class="svg-icon orange">
+                            <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                        </svg> -->
+                    </li>
+                </ul>
             </div>
         </div>
 

@@ -15,9 +15,9 @@ layout: default
             Hey there—my name is Arjun, and this is my personal website.
         </p>
         <p>
-            I work on developer tools and services at Microsoft. I'm specifically interested in how developers
-            collaborate over code: with teams growing remote, improving developer collaboration has a disproportionate
-            impact on the world.
+            I work on developer tools and services at Microsoft. I'm specifically interested
+            in how developers collaborate over code: with teams growing remote, improving developer
+            collaboration has a disproportionate impact on the world.
         </p>
         <p>
             Find me on <a href="https://www.twitter.com/arjunattam">@arjunattam</a>.
@@ -25,7 +25,7 @@ layout: default
     </div>
 
     {%- if site.posts.size > 0 -%}
-    <h2>{{ page.list_title | default: "Blog posts" }}</h2>
+    <h2 style="margin-top: 45px;">{{ page.list_title | default: "Blog posts" }}</h2>
     <ul class="post-list">
 
         {%- for post in site.posts -%}
