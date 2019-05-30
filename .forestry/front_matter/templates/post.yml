@@ -12,3 +12,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- _posts/next-steps-for-rubberduck.md
