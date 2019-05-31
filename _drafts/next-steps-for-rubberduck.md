@@ -8,11 +8,15 @@ I built the [Rubberduck](https://www.rubberduck.io/) browser extension to improv
 
 ## Background
 
-The [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) made it possible: by standardizing the protocol for how language tools and editors communicate. VS Code was the first LSP client, but now other editors like Sublime Text and Vim also support LSP, thereby making it possible to leverage existing language tooling across editors.
+Rubberduck was made possible by the Language Server Protocol, or LSP.
+
+LSP standardizes the protocol for how language tools and editors communicate, thereby solving the n x m problem (n different languages, m different languages, hence worked required to support them all is n x m).
+
+VS Code was the first LSP client, but now other editors like Sublime Text and Vim also support LSP, thereby making it possible to leverage existing language tooling across editors.
 
 Language intelligence is not restricted to editing however.
 
-LSP made it possible for a solo developer to build a developer tool that 
+LSP made it possible for a solo developer to build a developer tool that
 
 While pitching to VCs, I would often get asked "why now"—and LSP made for a compelling answer.
 
@@ -20,7 +24,7 @@ While pitching to VCs, I would often get asked "why now"—and LSP made for a co
 
 Sign up for the private preview
 
-I work on this, and we started onboarindg 
+I work on this, and we started onboarindg
 
 ## Rubberduck on LSIF
 
