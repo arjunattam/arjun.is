@@ -10,7 +10,7 @@ I built the [Rubberduck](https://www.rubberduck.io/) browser extension to improv
 
 Rubberduck was made possible by the Language Server Protocol, or LSP.
 
-LSP standardizes the protocol for how language tools and editors communicate, thereby solving the n x m problem (n different languages, m different languages, hence worked required to support them all is n x m).
+LSP standardizes the protocol for how language tools and editors communicate, thereby solving the n x m problem (n different languages, m different languages, hence worked required to support them all is n x m). By standard
 
 VS Code was the first LSP client, but now other editors like Sublime Text and Vim also support LSP, thereby making it possible to leverage existing language tooling across editors.
 
