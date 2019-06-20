@@ -5,8 +5,6 @@
 layout: home
 ---
 
-![Arjun Attam](/images/arjun.jpg)
-
 Hello, world! My name is Arjun. 👋
 
 I'm a product manager at Microsoft, where I work on developer tools and services. With every company becoming a software company, I believe making developers productive creates a lot of value, and I enjoy working with them. Before joining Microsoft, I built [Rubberduck](https://www.rubberduck.io) and [Team Chat](https://github.com/karigari/vscode-chat) to explore how developers collaborate, and I'm now applying these learnings at scale.
