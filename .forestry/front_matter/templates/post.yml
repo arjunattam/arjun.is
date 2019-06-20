@@ -1,0 +1,16 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: post
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+pages:
+- _posts/next-steps-for-rubberduck.md
