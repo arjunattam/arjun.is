@@ -13,4 +13,5 @@ fields:
   name: date
   label: date
 pages:
+- _posts/how-to-start-a-podcast.md
 - _posts/next-steps-for-rubberduck.md
