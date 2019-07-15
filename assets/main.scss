@@ -9,76 +9,77 @@
 @import "minima";
 
 a {
-    text-decoration: underline;
-    color: rgb(56, 76, 255);
+  text-decoration: underline;
+  color: rgb(56, 76, 255);
 }
 
 a:visited {
-    color: #5d2ba6;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-size: $base-font-size;
-    font-weight: bold;
+  color: #5d2ba6;
 }
 
 body {
-    min-height: 0;
+  min-height: 0;
 }
 
 .site-header {
-    border-bottom: none;
-    padding-top: 35px;
-    min-height: 25px;
+  border-bottom: none;
+  padding-top: 25px;
+  min-height: 25px;
 }
 
 .site-footer {
-    border-top: none;
-    padding: 0;
+  border-top: none;
+  padding: 0;
 }
 
 .footer-col-wrapper {
-    border-top: 3px solid #f3f4fa;
-    margin-top: 30px;
-    padding: 20px 0;
-    font-size: 14px;
-    color: #a3a3a3;
+  border-top: 3px solid #f3f4fa;
+  margin-top: 30px;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #a3a3a3;
 }
 
 .footer-col-wrapper a {
-    color: #a3a3a3;
+  color: #a3a3a3;
 }
 
 .footer-col-wrapper a:hover {
-    color: #828282;
+  color: #828282;
 }
 
 .title a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(56, 76, 255);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(56, 76, 255);
 }
 
 .title a.extra {
-    margin-left: 15px;
-    color: rgb(176, 177, 181);
+  margin-left: 15px;
+  color: rgb(176, 177, 181);
 }
 
 .title a:hover {
-    color: black;
+  color: black;
 }
 
 .post-title {
-    font-size: $base-font-size;
-    letter-spacing: 0;
-}
-
-.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-    font-size: $base-font-size;
+  letter-spacing: 0;
 }
 
 blockquote {
-    font-size: $base-font-size;
-    letter-spacing: 0;
-    font-style: normal;
+  font-size: $base-font-size;
+  letter-spacing: 0;
+  font-style: normal;
+}
+
+/* 
+Image captions
+as described in https://stackoverflow.com/a/30366422
+*/
+img + em {
+  display: block;
+  font-size: smaller;
+  font-style: normal;
+  color: #666;
 }
