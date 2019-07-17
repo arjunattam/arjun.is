@@ -5,7 +5,7 @@ date: 2019-07-16 07:00:00 +0000
 tags: podcast
 ---
 
-A few months ago I got together with my old friend Alokik to launch a podcast: [the Startup Green Room](https://startupgreenroom.com) is a place to celebrate functional learnings from operators in the Indian startup ecosystem. We have close to [10 episodes](https://startupgreenroom.com/episodes) now, and I'm keen to share our learnings so far. This post outlines some early learnings on distribution.
+A few months ago I got together with my old friend Alokik to launch a podcast: [the Startup Green Room](https://startupgreenroom.com) is a place to celebrate functional expertise from operators in the Indian startup ecosystem. We have close to [10 episodes](https://startupgreenroom.com/episodes) now, and I'm keen to share our learnings so far.
 
 Anecdotally, I've seen podcast listening grow fast over the last year: podcast related chatter on Twitter has increased, friends ask me for and share recommendations. At the same time, India-centric content isn't common. We are betting that the podcast tailwinds are strong enough for us to focus on content, and let the growth in podcast listening provide for distribution.
 
