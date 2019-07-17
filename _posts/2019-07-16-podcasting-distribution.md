@@ -32,9 +32,9 @@ _Website visitors, between May 1 and July 14, 2019_
 
 A few things to note here:
 
-* **Android is the dominant platform**, which is expected. Among visitors from mobile, proportion of Android is 60%. India is a [90% Android market](http://gs.statcounter.com/os-market-share/mobile/india) in mobile, and in our target segment (which is more affluent) proportion of Android is expected to be lower.
-* Macintosh beating iOS is not a surprise, since Macbooks (which are often paid for by companies) are easier to find than iPhones.
-* Mobile visitors are about 56%, desktop is 44%.
+- **Android is the dominant platform**, which is expected. Among visitors from mobile, proportion of Android is 60%. India is a [90% Android market](http://gs.statcounter.com/os-market-share/mobile/india) in mobile, and in our target segment (which is more affluent) proportion of Android is expected to be lower.
+- Macintosh beating iOS is not a surprise, since Macbooks (which are often paid for by companies) are easier to find than iPhones.
+- Mobile visitors are about 56%, desktop is 44%.
 
 ## Podcast downloads data
 
@@ -45,12 +45,12 @@ _Episode downloads, till July 14, 2019_
 
 From the distribution of popular players, we can see that:
 
-* 49% downloads come from the browser (mobile and desktop), rest from apps.
-* Among browser downloads, 53% are from mobile – which mirrors the website visitors distribution.
+- 49% downloads come from the browser (mobile and desktop), rest from apps.
+- Among browser downloads, 53% are from mobile – which mirrors the website visitors distribution.
 
 Half of our downloads coming from the browser is very surprising to me. I'm personally never in a position to play audio in the browser. When I typically discover podcasts, I open them in an app instead, so that I can listen to them when I listen to my podcasts (commute/gym, which is different from when I'm actively browsing).
 
-Given this bias, I'm tempted to interpret browser downloads as trial runs: users only listen to a few seconds (therefore counting as a download). Sidenote: this is where depth of podcast analytics around *listens vs downloads* would help. Bias aside, I do know of at least 1 user who used a mobile browser to listen to our entire playlist – and therefore, it can be argued that browser playback is a critical feature.
+Given this bias, I'm tempted to interpret browser downloads as trial runs: users only listen to a few seconds (therefore counting as a download). Sidenote: this is where depth of podcast analytics around _listens vs downloads_ would help. Bias aside, I do know of at least 1 user who used a mobile browser to listen to our entire playlist – and therefore, it can be argued that browser playback is a critical feature.
 
 In either case, browser listeners are not regular subscribers. At best, they consumed a free trial, and will not be notified when a new episode comes out. We need to look at app downloads in more detail.
 
@@ -59,9 +59,9 @@ _Episode downloads, apps only, till July 14, 2019_
 
 Among app downloads:
 
-* Apple Podcasts dominate app downloads, at 39%. In fact, **iOS dominates app downloads**, with Breaker (10%) and Overcast (4%) being the other two popular iOS-only apps. I'm leaving out iTunes (8%), which I'm guessing is coming from Windows/Mac users.
-* Castbox (10%), Spotify (10%), Pocket Casts (4%) are cross-platform. Google Podcasts (8%) is the only Android only app.
-* If we assume cross-platform apps to be Android users, and focus on mobile listeners only, we have 37% downloads from Android, and 63% from iOS.
+- Apple Podcasts dominate app downloads, at 39%. In fact, **iOS dominates app downloads**, with Breaker (10%) and Overcast (4%) being the other two popular iOS-only apps. I'm leaving out iTunes (8%), which I'm guessing is coming from Windows/Mac users.
+- Castbox (10%), Spotify (10%), Pocket Casts (4%) are cross-platform. Google Podcasts (8%) is the only Android only app.
+- If we assume cross-platform apps to be Android users, and focus on mobile listeners only, we have 37% downloads from Android, and 63% from iOS.
 
 ## Inferences
 
@@ -71,8 +71,8 @@ The iOS ecosystem is dominated by the default app, which sets the benchmark for 
 
 Android is more complicated. Fragmentation is in the very nature of Android, and the podcast apps ecosystem seems to be no different. If I break down the visitors to subscribers conversion into interested and capable users:
 
-* User is interested to convert: I don't have a reason to believe this would be different for iOS and Android
-* User knows how to convert: there *is* reason to believe this is different for iOS and Android
+- User is interested to convert: I don't have a reason to believe this would be different for iOS and Android
+- User knows how to convert: there _is_ reason to believe this is different for iOS and Android
 
 If we want to improve conversion rates for Android, we know what to do: help interested Android visitors convert to app subscribers.
 
@@ -90,4 +90,6 @@ Umm, what? I wish I had an Android phone to try it out, and thankfully someone m
 
 It's unclear to me why the app lacks a homescreen icon, but being pre-installed makes it an easy choice for us to recommend to our visitors. If you visit [our homepage](https://startupgreenroom.com) now, it recommends subscribing via Google Podcasts – and would deep-link into the app if you are on Android. To complete the recommendation, we also recommend Apple Podcasts, since Breaker/Overcast users are power-users, and would know what to do anyway.
 
-I'm bullish on the Indian podcasting ecosystem, and eager to share more such learnings around building a podcast in India. If you're in the same boat and have ideas on Android conversion rates, hit me up on [Twitter](https://twitter.com/arjunattam). I'm eager to collaborate with other creators in the space, and learn together.
+I'm bullish on the Indian podcasting ecosystem, and eager to share more such learnings on launching a podcast in India. If you're in the same boat and have ideas on Android conversion rates, hit me up on [Twitter](https://twitter.com/arjunattam). I'm eager to collaborate with other creators in the space, and learn together.
+
+And do check out [the Startup Green Room](https://startupgreenroom.com) podcast!
