@@ -10,15 +10,25 @@
 
 a {
   text-decoration: underline;
-  color: rgb(56, 76, 255);
+  color: #384cff;
 }
 
 a:visited {
   color: #5d2ba6;
 }
 
+a:hover, a:visited:hover {
+  color: #ff0000;
+}
+
 body {
   min-height: 0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: calc(900px - (30px * 2));
 }
 
 .site-header {
