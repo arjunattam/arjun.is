@@ -16,15 +16,14 @@ layout: default
     <div>{{ content }}</div>
 
     {%- if site.posts.size > 0 -%}
-    <h2 style="margin-top: 45px;">{{ page.list_title | default: "Blog posts" }}</h2>
+    <h2 style="margin-top: 45px;">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
 
         {%- for post in site.posts -%}
         <li style="margin-bottom: 0">
             {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
-            <span class="post-meta"
-                style="font-family: Monaco, monospace; font-size: 80%;">{{ post.date | date: date_format }}</span>
-            &centerdot;
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+
             <span>
                 <a href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
