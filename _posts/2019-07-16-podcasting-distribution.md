@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Early learnings in podcast distribution"
+title: "Lessons in podcast distribution"
 date: 2019-07-16 07:00:00 +0000
 tags: podcast
 ---
