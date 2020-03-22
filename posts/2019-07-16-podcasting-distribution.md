@@ -1,5 +1,5 @@
 ---
-title: "Early learnings in podcast distribution"
+title: "Lessons in podcast distribution"
 date: 2019-07-16
 tags:
   - podcasting
