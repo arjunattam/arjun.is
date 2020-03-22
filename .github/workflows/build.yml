@@ -11,7 +11,7 @@ jobs:
           node-version: '10.x'
       - run: npm install
       - name: Build
-        uses: TartanLlama/actions-eleventy@v1.1
+        uses: TartanLlama/actions-eleventy@v1.2
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.5.5
         with:
