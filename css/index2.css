@@ -120,3 +120,6 @@ footer {
   position: relative;
   margin: 0 auto;
 }
+code {
+  padding: 0.125em 1em;
+}
