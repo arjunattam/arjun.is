@@ -6,7 +6,7 @@ html {
 }
 body {
   margin: 0;
-  padding: 0 0 32px;
+  padding: 0 0 24px;
   font-family: system-ui, sans-serif;
   color: #567;
   background-color: #F0F2F4;
@@ -122,15 +122,33 @@ h2 {
 }
 footer {
   margin: 0 auto;
-  padding: 32px 20px 0;
+  padding: 24px 20px 0;
   color: #9AB;
-  font-size: 13px;
-  line-height: 1.5;
 }
 .footer {
   max-width: 950px;
   position: relative;
   margin: 0 auto;
+}
+.footer p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer__content {
+  display: inline-block;
+}
+.footer__content p {
+  display: inline-block;
+  padding-right: 5rem;
+  line-height: 2em;
+}
+.footer__content a {
+  color: #9AB;
+  text-decoration: underline;
+}
+.footer__content a:hover {
+  text-decoration: none;
 }
 code {
   padding: 0.125em 1em;
