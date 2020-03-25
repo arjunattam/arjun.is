@@ -30,14 +30,14 @@
         <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
           <aside id="sidebar">
             {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+            <h3>{{ metadata.description }}</h3>
             <nav>
               <ul>
               {%- for entry in collections.all | eleventyNavigation %}
-                <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+                <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title | lower }}</a></li>
               {%- endfor %}
               </ul>
             </nav>
-            <h3>{{ metadata.description }}</h3>
           </aside>
 
           <article class="content">
