@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    {# <link rel="stylesheet" href="{{ '/css/index.css' | url }}"> #}
-    <link rel="stylesheet" href="{{ '/css/index2.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
 
@@ -19,49 +18,35 @@
   </head>
   <body>
 
-    <div class="page-bg">
-      <div class="page">
+    <div class="page">
 
-        <header>
-          <div class="spacer">&nbsp;</div>
-          <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-        </header>
+      <header>
+        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      </header>
 
-        <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-          <aside id="sidebar">
-            {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-            <h3>{{ metadata.description }}</h3>
-            <nav>
-              <ul>
-              {%- for entry in collections.all | eleventyNavigation %}
-                <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title | lower }}</a></li>
-              {%- endfor %}
-              </ul>
-            </nav>
-          </aside>
+      <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+        <aside>
+          <span>{{ metadata.description }}</span>
+          <nav>
+            <ul>
+            {%- for entry in collections.all | eleventyNavigation %}
+              <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title | lower }}</a></li>
+            {%- endfor %}
+            </ul>
+          </nav>
+        </aside>
 
-          <article class="content">
-            {{ content | safe }}
-          </article>
-        </main>
-      </div>
+        <article class="content">
+          {{ content | safe }}
+        </article>
+      </main>
     </div>
 
     <footer>
       <div class="footer">
-        <div class="spacer">&nbsp;</div>
-        <div class="footer__content">
-          <p>
-            <strong>Contact</strong>
-            <br>
-            <a href="mailto:arjun@attam.in">arjun@attam.in</a>
-          </p>
-          <p>
-            <strong>Social</strong>
-            <br>
-            <a href="https://github.com/arjun27">GitHub</a> / <a href="https://twitter.com/arjunattam">Twitter</a>
-          </p>
-        </div>
+        <a href="https://github.com/arjun27">GitHub</a> / 
+        <a href="https://twitter.com/arjunattam">Twitter</a> /
+        <a href="mailto:arjun@attam.in">arjun@attam.in</a>
       </div>
     </footer>
 
