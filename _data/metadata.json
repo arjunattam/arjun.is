@@ -1,9 +1,9 @@
 {
   "title": "Arjun Attam",
   "url": "https://arjun.is/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Description",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Description",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://arjun.is/"

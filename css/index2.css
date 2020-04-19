@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0 0 24px;
+  font-family: system-ui, sans-serif;
+  color: #567;
+  background-color: #F0F2F4;
+  font-family: 'Open Sans', sans-serif;
+}
+p, li, td, th, dt, dd, cite, blockquote, label, legend {
+  line-height: 1.75;
+  font-size: 16px;
+  font-family: 'Lora', serif;
+}
+blockquote {
+  margin: 1.2em 2em 1.2em 0;
+  padding-left: 2em;
+  border-left: 1px solid #D0D8E0;
+}
+a {
+  color: #567;
+  text-decoration: none;
+}
+a:hover {
+  color: #89A;
+}
+body .page-bg {
+  padding: 0 20px 96px;
+  background-color: #fff;
+}
+body .page {
+  padding-top: 24px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+header {
+  padding-bottom: 72px;
+}
+header h1 {
+  height: 41px;
+  display: inline-block;
+  color: #abc;
+}
+header h1 a {
+  color: #abc;
+  text-decoration: none;
+}
+@media (min-width: 781px) {
+  #sidebar {
+    position: relative;
+    float: left;
+    width: 20%;
+    display: block;
+  }
+}
+@media (max-width: 780px) {
+  #sidebar {
+    display: none;
+  }
+}
+#sidebar h3 {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 56px;
+}
+nav {
+  margin-top: 32px;
+  width: 100%;
+  border-right: 1px solid #D0D8E0;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  font-family: 'Inter', sans-serif;
+}
+@media (min-width: 781px) {
+  .content {
+    margin-left: 29%;
+  }
+  .spacer {
+    width: 28.42105263%;
+    display: inline-block;
+  }
+}
+.content img,
+.content iframe {
+  max-width: 100%;
+}
+.content p {
+  line-height: 1.65;
+}
+.content a {
+  box-shadow: inset 0 -2px rgba(64,188,244,0.5);
+}
+.content a:hover {
+  background-color: rgba(64,188,244,0.5);
+  box-shadow: none;
+  color: #2C3641;
+}
+.content a.direct-link {
+  color: #abc;
+  box-shadow: none;
+}
+h1 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 32px 0 8px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+footer {
+  margin: 0 auto;
+  padding: 24px 20px 0;
+  color: #9AB;
+}
+.footer {
+  max-width: 950px;
+  position: relative;
+  margin: 0 auto;
+}
+.footer p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer__content {
+  display: inline-block;
+}
+.footer__content p {
+  display: inline-block;
+  padding-right: 5rem;
+  line-height: 2em;
+}
+.footer__content a {
+  color: #9AB;
+  text-decoration: underline;
+}
+.footer__content a:hover {
+  text-decoration: none;
+}
+code {
+  padding: 0.125em 1em;
+}
