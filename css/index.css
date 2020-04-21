@@ -27,6 +27,13 @@ h2 {
   line-height: 1.5;
   margin: 32px 0 8px;
 }
+h2.mono {
+  font-family: var(--mono-fonts);
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: smaller;
+  color: #666;
+}
 blockquote {
   margin: 1.2em 2em 1.2em 0;
   padding-left: 2em;
@@ -49,7 +56,7 @@ a:hover {
 }
 body .page {
   padding-top: 24px;
-  max-width: 950px;
+  max-width: 36rem;
   margin: 0 auto;
 }
 
@@ -79,7 +86,7 @@ nav li {
 /** Footer **/
 footer {
   margin: 70px auto;
-  max-width: 950px;
+  max-width: 36rem;
 }
 
 /** Posts list **/
@@ -88,7 +95,7 @@ ul.postlist {
   padding: 0;
 }
 ul.postlist li {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 ul.postlist li .info,
 div.postdate {

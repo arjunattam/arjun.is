@@ -6,6 +6,10 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
+function year(dateObj) {
+  return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
+}
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -15,6 +19,16 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+  });
+  eleventyConfig.addFilter("year", year);
+  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
+  eleventyConfig.addFilter("groupPostsByYear", posts => {
+    let res = {};
+    posts.forEach((post, index) => {
+      let key = year(post.date);
+      (res[key] || (res[key] = [])).push(post);
+    })
+    return res;
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
