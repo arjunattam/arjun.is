@@ -3,7 +3,7 @@
   "url": "https://arjun.is/",
   "description": "Description",
   "feed": {
-    "subtitle": "Description",
+    "subtitle": "Arjun Attam's blog",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://arjun.is/"
