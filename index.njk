@@ -5,8 +5,13 @@ eleventyNavigation:
   order: 1
 ---
 
-<h2 class="mono">Posts</h2>
+<h2>About me</h2>
+{% include "intro.njk" %}
 
+<h2>Projects</h2>
+{% include "projects.njk" %}
+
+<h2>Posts</h2>
 {% set postslist = collections.posts | head(-10) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}

@@ -1,0 +1,17 @@
+
+{% for project in projects %}
+<div class="project">
+  <div class="project-icon">
+    <img src="{{ project.icon }}" />
+  </div>
+  <div>
+    <h4>{{ project.name }}</h4>
+    <p>{{ project.description }}</p>
+    <p>
+      {% for link in project.links %}
+        <span>{{ link.name }}</span> •
+      {% endfor %}
+    </p>
+  </div>
+</div>
+{% endfor %}

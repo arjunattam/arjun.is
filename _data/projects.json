@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Covid Maps",
+    "icon": "/img/projects/covid.png",
+    "description": "Covid Maps is a crowdsourced app to find essentials during the COVID-19 lockdowns. I had the good fortune of working with some amazing individuals, solving a problem across Vancouver and Bangalore.",
+    "links": [
+      {
+        "name": "Learnings",
+        "href": ""
+      },
+      {
+        "name": "Press",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "name": "The Startup Green Room",
+    "icon": "/img/projects/podcast.jpg",
+    "description": "Behind the scenes with Indian startup operators. The Startup Green Room celebrates functional expertise and learnings from the Indian startup ecosystem.",
+    "links": [
+      {
+        "name": "Past episodes",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "name": "Spaces",
+    "icon": "/img/projects/placeholder.jpg",
+    "description": "",
+    "links": []
+  },
+  {
+    "name": "Live Share Chat",
+    "icon": "/img/projects/placeholder.jpg",
+    "description": "",
+    "links": []
+  },
+  {
+    "name": "Rubberduck",
+    "icon": "/img/projects/placeholder.jpg",
+    "description": "",
+    "links": []
+  }
+]

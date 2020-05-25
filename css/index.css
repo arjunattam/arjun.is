@@ -2,9 +2,6 @@
   --bright-green:  rgba(43, 255, 0, 0.75);
   --mono-fonts: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
-* {
-  box-sizing: border-box;
-}
 html {
   margin: 0;
 }
@@ -101,4 +98,13 @@ ul.postlist li .info,
 div.postdate {
   font-size: smaller;
   color: #666;
+}
+
+/** Projects **/
+.project {
+  display: flex;
+}
+.project-icon {
+  flex: 0 0 100px;
+  margin-right: 20px;
 }

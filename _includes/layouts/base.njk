@@ -12,41 +12,16 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76439340-1"></script>
     <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-76439340-1');</script>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora|Inter&display=swap" rel="stylesheet">
   </head>
   <body>
-
-    <div class="page">
-
-      <header>
-        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-      </header>
-
-      <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-        <aside>
-          <!-- <span>{{ metadata.description }}</span> -->
-          <nav>
-            <ul>
-            {%- for entry in collections.all | eleventyNavigation %}
-              <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title | lower }}</a></li>
-            {%- endfor %}
-            </ul>
-          </nav>
-        </aside>
-
-        <article class="content">
-          {{ content | safe }}
-        </article>
-      </main>
-    </div>
+    {{ content | safe }}
 
     <footer>
       <div class="footer">
         <a href="mailto:arjun@attam.in">arjun@attam.in</a> /
         <a href="https://twitter.com/arjunattam">Twitter</a> /
-        <a href="https://github.com/arjun27">GitHub</a>
+        <a href="https://github.com/arjun27">GitHub</a> /
+        <a href="https://www.linkedin.com/in/arjunattam/">LinkedIn</a>
       </div>
     </footer>
 

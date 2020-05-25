@@ -81,6 +81,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     templateFormats: [
+      "pug",
       "md",
       "njk",
       "html",
