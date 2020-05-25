@@ -5,11 +5,11 @@
     <img src="{{ project.icon }}" />
   </div>
   <div>
-    <h4>{{ project.name }}</h4>
+    <div><strong>{{ project.name }}</strong> <span class="fade">{{ project.category }}</span></div>
     <p>{{ project.description }}</p>
     <p>
       {% for link in project.links %}
-        <span>{{ link.name }}</span> •
+        <a href="{{ link.href }}">{{ link.name }}</a> •
       {% endfor %}
     </p>
   </div>

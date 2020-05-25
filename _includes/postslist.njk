@@ -11,7 +11,7 @@
       <div>
         <a href="{{ post.url | url }}" class="postlist-link">{{ post.data.title }}</a>
       </div>
-      <div class="info">
+      <div class="fade">
         <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 
         {% for tag in post.data.tags %}
