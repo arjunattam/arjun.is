@@ -11,6 +11,7 @@
       <div>
         <a href="{{ post.url | url }}" class="postlist-link">{{ post.data.title }}</a>
       </div>
+      <div>{{ post | firstParagraph | safe }}</div>
       <div class="fade">
         <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 

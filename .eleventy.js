@@ -30,6 +30,13 @@ module.exports = function(eleventyConfig) {
     })
     return res;
   });
+  eleventyConfig.addFilter("firstParagraph", post => {
+    const paragraphs = post.templateContent.split('\n');
+    const imgPara = para => 
+      para.replace('<p>', '').replace('</p>', '').startsWith('<img');
+    const textParagraphs = paragraphs.filter(para => !imgPara(para));
+    return textParagraphs.length ? textParagraphs[0] : "";
+  })
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
