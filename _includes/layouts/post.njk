@@ -1,12 +1,18 @@
 ---
-layout: layouts/page.njk
+layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
+<main>
+  <article class="content">
 
-{% if date %}
-<div class="postdate">{{ date | readableDate }}</div>
-{% endif %}
+    <h1>{{ title }}</h1>
 
-{{ content | safe }}
+    {% if date %}
+    <div class="postdate">{{ date | readableDate }}</div>
+    {% endif %}
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+    {{ content | safe }}
+
+    <p><a href="{{ '/' | url }}">← Home</a></p>
+  </article>
+</main>
+

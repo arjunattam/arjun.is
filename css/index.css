@@ -1,6 +1,6 @@
 :root {
   --highlight:  rgb(251, 255, 0);
-  --black: rgb(47, 47, 47);
+  --black: rgb(27, 27, 27);
   --gray: #666;
   --link: blue;
   --mono-fonts: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -13,23 +13,8 @@ body {
   padding: 0 10px;
   font-size: 16px;
   font-family: -apple-system, system-ui, sans-serif;
-  color: --black;
-}
-p, li, td, th, dt, dd, cite, blockquote, label, legend {
+  color: var(--black);
   line-height: 1.75;
-}
-h1 {
-  font-size: 24px;
-}
-h2 {
-  font-size: 18px;
-}
-h2.mono {
-  font-family: var(--mono-fonts);
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: smaller;
-  color: var(--gray);
 }
 blockquote {
   margin: 1.2em 2em 1.2em 0;
@@ -55,9 +40,13 @@ a:hover {
 .fade {
   color: var(--gray);
 }
+.mono {
+  font-family: var(--mono-fonts);
+  text-transform: uppercase;
+}
 
 /** Container **/
-body .page {
+main {
   padding-top: 24px;
   max-width: 36rem;
   margin: 0 auto;
@@ -66,14 +55,7 @@ body .page {
 /** Header **/
 header {
   margin: 0 auto;
-}
-header h1 {
-  font-size: 16px;
-  display: inline-block;
-}
-header h1 a,
-header h1 a:visited {
-  color: var(--black);
+  max-width: 36rem;
 }
 
 /** Navigation **/

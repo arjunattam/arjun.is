@@ -1,0 +1,11 @@
+<header>
+  <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+  <div>{{ metadata.description }}</div>
+  <nav>
+    <ul>
+    {%- for entry in collections.all | eleventyNavigation %}
+        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title | lower }}</a></li>
+    {%- endfor %}
+    </ul>
+  </nav>
+</header>
