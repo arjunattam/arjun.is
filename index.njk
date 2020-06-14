@@ -5,18 +5,29 @@ eleventyNavigation:
   order: 1
 ---
 
-<section class="content">
-{% include "intro.njk" %}
+<section>
+  {% include "homephoto.njk" %}
 </section>
 
-<section class="content">
-<h2>Projects</h2>
-{% include "projects.njk" %}
+<section>
+  {% include "intro.njk" %}
 </section>
 
-<section class="content">
-<h2>Posts</h2>
-{% set postslist = collections.posts | head(-10) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+{# <section>
+  <h2>Latest post</h2>
+  {% set postslist = collections.posts | head(-1) %}
+  {% set postslistCounter = collections.posts | length %}
+  {% include "postslist.njk" %}
+</section> #}
+
+{# <section>
+  <h2>Projects</h2>
+  {% include "projects.njk" %}
+</section> #}
+
+<section>
+  <h2>Posts</h2>
+  {% set postslist = collections.posts | head(-10) %}
+  {% set postslistCounter = collections.posts | length %}
+  {% include "postslist.njk" %}
 </section>

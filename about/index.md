@@ -1,9 +1,11 @@
 ---
 layout: layouts/post.njk
 title: About Me
-eleventyNavigation:
-  key: About Me
-  order: 3
+# Removing from navigation, since `home` has this content
+#
+# eleventyNavigation:
+#   key: About Me
+#   order: 3
 ---
 
 <img src="/img/arjun.jpg" width="250" alt="Arjun Attam" />
