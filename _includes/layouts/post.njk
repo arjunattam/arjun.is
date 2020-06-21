@@ -7,7 +7,7 @@ layout: layouts/base.njk
     <h1>{{ title }}</h1>
 
     {% if date %}
-    <div class="postdate">{{ date | readableDate }}</div>
+    <div class="postdate fade">{{ date | readableDate }}</div>
     {% endif %}
 
     {{ content | safe }}

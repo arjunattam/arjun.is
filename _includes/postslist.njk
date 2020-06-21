@@ -1,7 +1,7 @@
 {% set groupedposts = postslist | groupPostsByYear %}
 
 {% for year in groupedposts | keys | reverse %}
-  <h2 class="mono">{{ year }}</h2>
+  <h4 class="mono">{{ year }}</h2>
 
   {% set posts = groupedposts[year] %}
   <ul class="postlist">

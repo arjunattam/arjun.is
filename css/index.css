@@ -93,6 +93,7 @@ article img {
 /** Footer **/
 footer {
   margin: 70px auto;
+  padding: 0 10px;
   max-width: 36rem;
 }
 
@@ -120,10 +121,17 @@ section {
   padding: 10px 0;
   border-bottom: 1px solid var(--light-gray);
 }
-/** TODO: make it for mobile **/
 section img {
   max-width: 140%;
   transform: translateX(-10%);
+}
+@media only screen and (max-width: 600px) {
+  section img {
+    /* Remove parent padding */
+    margin-left: -10px;
+    max-width: calc(100% + 20px);
+    transform: none;
+  }
 }
 
 .caption a {
