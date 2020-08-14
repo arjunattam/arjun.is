@@ -89,6 +89,10 @@ nav li::before{
 article img {
   max-width: 100%;
 }
+article h1 {
+  /** https://stackoverflow.com/questions/39547412/same-font-size-for-h1-and-h2-in-article */ 
+  font-size: 2em;
+}
 
 /** Footer **/
 footer {
@@ -98,12 +102,25 @@ footer {
 }
 
 /** Posts list **/
+.posts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.postyear {
+  display: flex;
+}
+.postyear h4 {
+  margin: 0 30px 0 0;
+  font-weight: normal;
+}
 ul.postlist {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 ul.postlist li {
-  margin: 15px 0;
+  margin-bottom: 10px;
 }
 
 /** Projects **/
