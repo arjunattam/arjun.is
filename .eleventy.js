@@ -5,6 +5,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItFootnote = require("markdown-it-footnote");
 
 function year(dateObj) {
   return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
@@ -66,7 +67,14 @@ module.exports = function(eleventyConfig) {
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
-  });
+  }).use(markdownItFootnote);
+  // Footnote styling
+  // http://dirtystylus.com/2020/06/15/eleventy-markdown-and-footnotes/
+  markdownLibrary.renderer.rules.footnote_caption = (tokens, idx) => {
+    let n = Number(tokens[idx].meta.id + 1).toString();
+    if (tokens[idx].meta.subId > 0) n += ":" + tokens[idx].meta.subId;
+    return n;
+  };
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
