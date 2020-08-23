@@ -101,6 +101,9 @@ hr.footnotes-sep {
 section.footnotes {
   border-top: 1px solid var(--light-gray);
 }
+ol.footnotes-list {
+  padding-inline-start: 20px;
+}
 
 /** Footer **/
 footer {
