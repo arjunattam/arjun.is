@@ -32,6 +32,6 @@ A year later I can proudly say that we've done well. Our cadence is a weekly 2-3
 
 Sustaining the rhythm has revealed a second-order effect: meta-level assessment. Every once in a while we look back at the last few weeks, gauge them against an earlier period and evaluate the quality of communication all other things being equal. Making this LDR work has been a life achievement and we are now close to closing the distance.
 
-To contrast, the lack of cadence is what killed Alokik and my attempt at podcasting with [the Startup Green Room](https://startupgreenroom.com/). Shipping regular episodes was hard, and while Alokik and I discussed releasing every 3 weeks frequently, discussions were not enough. Same people, same levels of motivation, but missing a system.
+To contrast, the lack of cadence is what killed Alokik and my attempt at podcasting with [the Startup Green Room](https://startupgreenroom.com/). Shipping regular episodes was hard, and while Alokik and I discussed releasing every 3 weeks frequently, but discussions were not enough. Same people, same levels of motivation, but missing a system.
 
 [^1]: And now that I have a name, I can reference and apply it more.
