@@ -94,6 +94,14 @@ article h1 {
   font-size: 2em;
 }
 
+/** Footnotes **/
+hr.footnotes-sep {
+  display: none;
+}
+section.footnotes {
+  border-top: 1px solid var(--light-gray);
+}
+
 /** Footer **/
 footer {
   margin: 70px auto;
