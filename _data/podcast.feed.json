@@ -1,0 +1,620 @@
+{
+  "@version": "2.0",
+  "channel": {
+     "link": [
+        {
+           "@rel": "self",
+           "@href": "https://feeds.transistor.fm/the-startup-green-room",
+           "@title": "MP3 Audio"
+        },
+        {
+           "@rel": "hub",
+           "@href": "https://pubsubhubbub.appspot.com/"
+        },
+        "http://startupgreenroom.com"
+     ],
+     "title": "The Startup Green Room",
+     "generator": "Transistor (https://transistor.fm)",
+     "new-feed-url": "https://feeds.transistor.fm/the-startup-green-room",
+     "description": "Behind the scenes with operators building India's best tech startups",
+     "copyright": "© 2019 Startup Green Room",
+     "language": "en",
+     "pubDate": "Thu, 19 Mar 2020 07:00:00 +0530",
+     "lastBuildDate": "Tue, 08 Sep 2020 06:28:45 +0530",
+     "image": [
+        {
+           "url": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg",
+           "title": "The Startup Green Room",
+           "link": "http://startupgreenroom.com"
+        },
+        {
+           "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+        },
+        {
+           "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+        }
+     ],
+     "category": [
+        {
+           "@text": "Business",
+           "category": {
+              "@text": "Entrepreneurship"
+           }
+        },
+        {
+           "@text": "Business"
+        }
+     ],
+     "author": [
+        "Alokik Bhasin, Arjun Attam",
+        "Alokik Bhasin, Arjun Attam"
+     ],
+     "summary": [
+        "Behind the scenes with operators building India's best tech startups",
+        "Behind the scenes with operators building India's best tech startups"
+     ],
+     "explicit": [
+        "No",
+        "No"
+     ],
+     "block": [
+        "No",
+        "No"
+     ],
+     "type": "episodic",
+     "subtitle": "Behind the scenes with operators building India's best tech startups.",
+     "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+     "owner": {
+        "name": "Startup Green Room",
+        "email": "startupgreenroom@gmail.com"
+     },
+     "complete": "No",
+     "item": [
+        {
+           "title": [
+              "Learning to be great at product management with Taruna Manchanda",
+              "Learning to be great at product management with Taruna Manchanda"
+           ],
+           "episode": "14",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "9e76ef44-9fba-4dd1-bea1-d72b02c78486"
+           },
+           "link": "https://share.transistor.fm/s/c215fdd5",
+           "description": "Taruna Manchanda walks us through her career as a product manager at LinkedIn, Swiggy and Wingify, and shares how she has built her PM skill set.",
+           "encoded": "In this episode, we chat with Taruna Manchanda who is currently a product manager at LinkedIn. We talk about her journey in product management, starting with Wingify, Swiggy and now LinkedIn. We also cover how she has built her PM skillset: working with customers, engineers, and leadership.<br>Taruna also identifies some key traits of successful product managers—especially ones that are often ignored. For example, she emphasizes softer skills like communication. We talk about how great communication has been a critical tool for her, to grow in her career from working in a 10 person team to a company of 1000s.<br><a href=\"http://twitter.com/Taruna2309\">Find Taruna on Twitter<\/a><br><br>We thrive on your feedback, take a minute and please fill <a href=\"https://arjunattam.typeform.com/to/amW7gf\">this short survey<\/a>.<br><br><a href=\"https://startupgreenroom.com/\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Thu, 19 Mar 2020 07:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/471cfc73.mp3",
+              "@length": "71190352"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "4447",
+           "summary": "Taruna Manchanda walks us through her career as a product manager at LinkedIn, Swiggy and Wingify, and shares how she has built her PM skill set.",
+           "subtitle": "Taruna Manchanda walks us through her career as a product manager at LinkedIn, Swiggy and Wingify, and shares how she has built her PM skill set.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Naiyya Saggi: Helping families with trustworthy and deeply personal tech",
+              "Naiyya Saggi: Helping families with trustworthy and deeply personal tech"
+           ],
+           "episode": "13",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "6795e262-4b92-497b-8bef-4bbb56d3d730"
+           },
+           "link": "https://share.transistor.fm/s/700d4912",
+           "description": "Naiyya Saggi is the founder at BabyChakra, India's largest parenting community. Listen for amazing insights on how Indian families are interacting with tech, and how to build products that are trustworthy and safe.",
+           "encoded": "In this episode, we chat with Naiyya Saggi. Naiyya is the founder of BabyChakra, which is India's largest parenting community. Parenting and pregnancy are deeply personal topics, and BabyChakra has been able to create a trustworthy space to help its users become better mothers and fathers.<br><br>We discuss how BabyChakra builds trust and safety into their products, uses localization and personalization to drive engagement, and creates a healthy environment for content creators. We also cover the growth story for BabyChakra: early non-scalable hacks, and the team's current goal of \"ghar-ghar BabyChakra\". Listen for some amazing insights on how Indian families are evolving and interacting with tech.<br><br><a href=\"https://www.linkedin.com/in/naiyyasaggi/\">Find Naiyya on LinkedIn<\/a><br><br>We thrive on your feedback, take a minute and please fill <a href=\"https://arjunattam.typeform.com/to/amW7gf\">this short survey<\/a>.<br><br><a href=\"https://startupgreenroom.com/\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Thu, 09 Jan 2020 10:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/436a2093.mp3",
+              "@length": "58203260"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "3635",
+           "summary": "Naiyya Saggi is the founder at BabyChakra, India's largest parenting community. Listen for amazing insights on how Indian families are interacting with tech, and how to build products that are trustworthy and safe.",
+           "subtitle": "Naiyya Saggi is the founder at BabyChakra, India's largest parenting community. Listen for amazing insights on how Indian families are interacting with tech, and how to build products that are trustworthy and safe.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Anshuman Bapna: Hustling to get acquired",
+              "Anshuman Bapna: Hustling to get acquired"
+           ],
+           "episode": "12",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "27195eb3-9485-4431-9bd6-1bdb0791c17e"
+           },
+           "link": "https://share.transistor.fm/s/ba6aef33",
+           "description": "We chat with Anshuman Bapna about how his startup Mygola was acquired by MakeMyTrip, and look under the hood of how Mygola decided to sell, approached acquirers, and kept investors and the team together.",
+           "encoded": "In this episode we share a story that is rarely told: of how startup acquisitions look like under the hood. It is said that \"startups are bought, and not sold\", but that is an incomplete truth. Great teams often build great products that are not great businesses, and getting a soft exit in such situations is crucial to not just the team, but also to the success of the overall startup ecosystem.<br><br>We chat with Anshuman Bapna, who was most recently the Chief Product Officer at MakeMyTrip/Goibibo. Before this, he co-founded Mygola, which was acquired by MakeMyTrip. We chat about how they struggled finding a business model, and decided to sell the company. It sounds easier said that done because managing the team and investor relations when the ship is sinking is a real test of leadership, and Anshuman shares how he managed to do that.<br><br><a href=\"https://twitter.com/bapnaa\">Follow Anshuman on Twitter<\/a><br><br>We thrive on your feedback, please fill <a href=\"https://arjunattam.typeform.com/to/amW7gf\">this short survey<\/a>.<br><br><a href=\"https://startupgreenroom.com/\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Mon, 14 Oct 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/d48e8e36.mp3",
+              "@length": "64680565"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "4040",
+           "summary": "We chat with Anshuman Bapna about how his startup Mygola was acquired by MakeMyTrip, and look under the hood of how Mygola decided to sell, approached acquirers, and kept investors and the team together.",
+           "subtitle": "We chat with Anshuman Bapna about how his startup Mygola was acquired by MakeMyTrip, and look under the hood of how Mygola decided to sell, approached acquirers, and kept investors and the team together.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Prateek Sharma: Building Duta, the largest social app you have never heard of",
+              "Prateek Sharma: Building Duta, the largest social app you have never heard of"
+           ],
+           "episode": "11",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "95690af9-c448-4ab7-a972-c9b2f508aae6"
+           },
+           "link": "https://share.transistor.fm/s/3dc0456c",
+           "description": "Prateek Sharma is the VP of Product at Duta, a social app focused on the next billion users. Starting with search and content distribution, Duta is defining what the Internet means to these users.",
+           "encoded": "Duta is definitely the most interesting startup we have had on this podcast so far. They don't have a website/mobile app, and yet have millions of users spread across the globe. All of these users are new to the Internet, and Duta is defining the Internet for them.<br><br>Prateek heads product management at Duta, and we chat with him to understand what the next billion users want, what the Internet means to them, and how Duta is solving these problems – logically, but unconventionally.<br><br><a href=\"https://twitter.com/prateeks\">Follow Prateek on Twitter<\/a><br><br>Share the episode with your friends, and help us keep going! We thrive on your feedback – find us at the links below.<br><br><a href=\"https://startupgreenroom.com/\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Thu, 26 Sep 2019 10:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/aa5a139b.mp3",
+              "@length": "61114151"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "3817",
+           "summary": "Prateek Sharma is the VP of Product at Duta, a social app focused on the next billion users. Starting with search and content distribution, Duta is defining what the Internet means to these users.",
+           "subtitle": "Prateek Sharma is the VP of Product at Duta, a social app focused on the next billion users. Starting with search and content distribution, Duta is defining what the Internet means to these users.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Abhinav Asthana: Building best of breed developer tools at Postman",
+              "Abhinav Asthana: Building best of breed developer tools at Postman"
+           ],
+           "episode": "10",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "0f4290c1-c40d-4063-afdb-17219789cbe0"
+           },
+           "link": "https://share.transistor.fm/s/c37eba67",
+           "description": "Abhinav Asthana is the founder and CEO of Postman, the world's most popular API development tool. He shares insights on finding the right early users, the SaaS opportunity in India, and leading distributed teams.",
+           "encoded": "Abhinav Asthana is the founder and CEO of Postman, the world's most popular API development tool. He talks about his journey of building a successful global SaaS product out of India. Abhinav shares some amazing product insights, like how to establish the right feedback cycle early on, which for them often meant ignoring feedback from developers in India. We also chat about advantages of building global companies in India, and his learnings on leading teams distributed across time zones.<br><br><a href=\"https://twitter.com/a85\">Follow Abhinav on Twitter<\/a><br><br>We thrive on your feedback. Like/dislike the episode? Please reach out to us and tell what would make it better!<br><br><a href=\"https://startupgreenroom.com/\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Tue, 17 Sep 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/08e268c5.mp3",
+              "@length": "63872274"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "3990",
+           "summary": "Abhinav Asthana is the founder and CEO of Postman, the world's most popular API development tool. He shares insights on finding the right early users, the SaaS opportunity in India, and leading distributed teams.",
+           "subtitle": "Abhinav Asthana is the founder and CEO of Postman, the world's most popular API development tool. He shares insights on finding the right early users, the SaaS opportunity in India, and leading distributed teams.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Prashant Tandon: Solving trust and access in the Indian healthcare ecosystem",
+              "Prashant Tandon: Solving trust and access in the Indian healthcare ecosystem"
+           ],
+           "episode": "9",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "0f5b9925-d6f1-4de2-aadc-890287b9e1cc"
+           },
+           "link": "https://share.transistor.fm/s/7744ec42",
+           "description": "Prashant Tandon is the co-founder and CEO of 1mg, the largest healthcare app in India. He's a veteran in the space, and shares his insights on healthcare in India.",
+           "encoded": "Prashant Tandon is the founder of not one, but two successful healthcare companies in India: 1mg and HealthKart. In this episode, he brings a decade of expertise from the healthcare sector, and is full of insights around trust and access. We also talk about how 1mg was launched out of an experiment inside HealthKart, and spun up as a different company. In the end, we talk about what healthcare tech means for the the next 100M users who are new to the Internet in India.<br><br><a href=\"https://www.linkedin.com/in/prashant-tandon-2802a4/\">Follow Prashant on LinkedIn<\/a><br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage.<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Mon, 12 Aug 2019 10:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/fdcd3e10.mp3",
+              "@length": "41114903"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "2567",
+           "summary": "Prashant Tandon is the co-founder and CEO of 1mg, the largest healthcare app in India. He's a veteran in the space, and shares his insights on healthcare in India.",
+           "subtitle": "Prashant Tandon is the co-founder and CEO of 1mg, the largest healthcare app in India. He's a veteran in the space, and shares his insights on healthcare in India.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Tapan Pandita: The Indian fin-tech landscape digest",
+              "Tapan Pandita: The Indian fin-tech landscape digest"
+           ],
+           "episode": "8",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "70ca8831-d586-474f-a363-0febb3631ec6"
+           },
+           "link": "https://share.transistor.fm/s/d5b95d4d",
+           "description": "Tapan Pandita is the Chief Architect at ICICI's Innovation Labs, and takes a deep dive into the Indian fin-tech opportunity space.",
+           "encoded": "Given the rise of newer platforms (mobile, India stack, UPI) the Indian fin-tech landscape has evolved quickly in the last few years. Tapan Pandita is the Chief Architect at ICICI Innovation Labs, and walks through the Indian fin-tech landscape. He structures the lay of the land into 4 verticals: assets, liabilities, payments and insurance, and dives into the history, role of regulation, and opportunities in each one of them. We also chat about Facebook's Libra currency project, how tech incumbents outside fin-tech are now innovating in fin-tech, and how to keep up with fin-tech regulation activity as an outsider.<br><br><a href=\"https://twitter.com/tapan_pandita\">Find Tapan on Twitter<\/a><br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage.<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Wed, 10 Jul 2019 10:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/4e1030fa.mp3",
+              "@length": "75047471"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "4688",
+           "summary": "Tapan Pandita is the Chief Architect at ICICI's Innovation Labs, and takes a deep dive into the Indian fin-tech opportunity space.",
+           "subtitle": "Tapan Pandita is the Chief Architect at ICICI's Innovation Labs, and takes a deep dive into the Indian fin-tech opportunity space.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Zishaan Hayath: The secret sauce of product management at Toppr",
+              "Zishaan Hayath: The secret sauce of product management at Toppr"
+           ],
+           "episode": "7",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "85b4cda9-ce2f-4868-ac0c-5eca73b359c2"
+           },
+           "link": "https://share.transistor.fm/s/9880fcfa",
+           "description": "Zishaan Hayath reveals the secret sauce behind product management at Toppr, and how they achieve best-in-class retention metrics.",
+           "encoded": "A few weeks ago, we came across <a href=\"https://twitter.com/Zishaan/status/1131063906179342336\">a tweet by Zishaan Hayath<\/a> where he shared some amazing product metrics from Toppr. In this episode, we peek under the hood with him, and dive into how product management at Toppr works. Zishaan talks about the importance of a north-star metric, building product intuition and empathy with users, and establishing an effective process for product managers to work with sales and engineering teams. It's very clear that Zishaan is a passionate product builder, and it was valuable to learn what he looks for in product managers, and get his advice to newcomers.<br><br><a href=\"https://twitter.com/Zishaan\">Zishaan on Twitter<\/a> / For opportunities at Toppr reach out to them at pm@toppr.com<br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage.<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Thu, 27 Jun 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/6873e40e.mp3",
+              "@length": "49605899"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "3098",
+           "summary": "Zishaan Hayath reveals the secret sauce behind product management at Toppr, and how they achieve best-in-class retention metrics.",
+           "subtitle": "Zishaan Hayath reveals the secret sauce behind product management at Toppr, and how they achieve best-in-class retention metrics.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Ankit Nagori: Building for customer experience at Cure.Fit",
+              "Ankit Nagori: Building for customer experience at Cure.Fit"
+           ],
+           "episode": "6",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "d6877fd9-3d59-4da1-8daa-99845ad8c698"
+           },
+           "link": "https://share.transistor.fm/s/4655a70f",
+           "description": "Ankit Nagori is the co-founder at Cure.Fit, where they are building an expansive health and fitness company that is focused on customer experience.",
+           "encoded": "Ankit Nagori is the co-founder at Cure.Fit, where they are creating a truly expansive health and fitness company: covering mental health, nutrition, physical fitness and primary care. We talk about how Cure.Fit is focused on customer experience, and how that leads them to owning supply. Ankit also shares his approach to learning consumer behavior, and creating an organization that can deliver on this expansive vision. He also shares what inspires him, and what he would be building if it wasn't for Cure.Fit.<br><br><a href=\"https://www.linkedin.com/in/ankitnagori/\">Find Ankit on LinkedIn<\/a> / <a href=\"https://www.cure.fit/careers\">Career opportunities at Cure.Fit<\/a><br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage:<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Thu, 06 Jun 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/e1fe0f61.mp3",
+              "@length": "33651154"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "2101",
+           "summary": "Ankit Nagori is the co-founder at Cure.Fit, where they are building an expansive health and fitness company that is focused on customer experience.",
+           "subtitle": "Ankit Nagori is the co-founder at Cure.Fit, where they are building an expansive health and fitness company that is focused on customer experience.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Shrey Gupta: Achieving product-market fit for Oyo's supply-side",
+              "Shrey Gupta: Achieving product-market fit for Oyo's supply-side"
+           ],
+           "episode": "5",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "e743df2c-70ae-49ee-8ec1-dee2dfbe0b9e"
+           },
+           "link": "https://share.transistor.fm/s/8d9fedd7",
+           "description": "Shrey shares his learnings in pitching to, transforming, and onboarding properties on OYO Rooms – and then scaling this across the country.",
+           "encoded": "Shrey takes us back to the early days of OYO Rooms, and his role in building the supply-side of the hospitality marketplace. Shrey talks about how they pitched to hotel businesses, transformed them to meet higher quality standards, and onboarded them to the marketplace. Interesting tidbits on how the supply-side grew from a handful of properties to multiple cities in India and abroad.<br><br><a href=\"https://www.linkedin.com/in/guptashrey/\">Connect with Shrey on LinkedIn<\/a><br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage:<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Wed, 22 May 2019 11:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/84fdad3e.mp3",
+              "@length": "43661002"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "2727",
+           "summary": "Shrey shares his learnings in pitching to, transforming, and onboarding properties on OYO Rooms – and then scaling this across the country.",
+           "subtitle": "Shrey shares his learnings in pitching to, transforming, and onboarding properties on OYO Rooms – and then scaling this across the country.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Swetabh Pathak: Consulting services to SaaS product at Elucidata",
+              "Swetabh Pathak: Consulting services to SaaS product at Elucidata"
+           ],
+           "episode": "4",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "70d1ff57-d64a-4614-b888-2efa3ce7adca"
+           },
+           "link": "https://share.transistor.fm/s/8a375ad5",
+           "description": "Swetabh shares his learnings as his company Elucidata transitions from consulting services to a SaaS product.",
+           "encoded": "Swetabh builds Elucidata - a data analytics product for research scientists at pharma companies. In this episode, Swetabh shares how they started out with consulting services, discovered patterns, and then steered the organization to building a SaaS product. Lots of interesting tidbits for other companies following this route.<br><br><a href=\"https://www.linkedin.com/in/swetabh-pathak-b4154558/\">Connect with Swetabh on LinkedIn<\/a> / <a href=\"http://www.elucidata.io\">Elucidata website<\/a><br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage:<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Thu, 02 May 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/61d63e3a.mp3",
+              "@length": "26042585"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "1625",
+           "summary": "Swetabh shares his learnings as his company Elucidata transitions from consulting services to a SaaS product.",
+           "subtitle": "Swetabh shares his learnings as his company Elucidata transitions from consulting services to a SaaS product.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Sanjeev Rao: Scaling Swiggy 10x",
+              "Sanjeev Rao: Scaling Swiggy 10x"
+           ],
+           "episode": "3",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "672648be-31cf-4dcc-a02d-1195c1dcd937"
+           },
+           "link": "https://share.transistor.fm/s/99bafda8",
+           "description": "Sanjeev shares his learnings from leading HR at Swiggy and growing the team from 70 to 800 people.",
+           "encoded": "Sanjeev shares his learnings from leading HR at Swiggy and growing the team from 70 to 800 people. His journey is full of insights on recruiting, coming from a ex-management consultant who ramped up quickly. Bonus content: his thoughts on compensation negotiations, and how applicants could approach them.<br><br><a href=\"https://www.linkedin.com/in/sanjeev-rao-20505221/\">Connect with Sanjeev on LinkedIn<\/a><br><br>Join our Slack community to dig into follow-up conversations with guests and meet other listeners. Find the link on our homepage:<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> ",
+           "pubDate": "Wed, 24 Apr 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/fab97de8.mp3",
+              "@length": "32937986"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "2056",
+           "summary": "Sanjeev shares his learnings from leading HR at Swiggy and growing the team from 70 to 800 people.",
+           "subtitle": "Sanjeev shares his learnings from leading HR at Swiggy and growing the team from 70 to 800 people.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Deepit Purkayastha: Product learnings from Inshorts",
+              "Deepit Purkayastha: Product learnings from Inshorts"
+           ],
+           "episode": "2",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "08467597-3b08-41e1-9b1c-b1a05c4e03e2"
+           },
+           "link": "https://share.transistor.fm/s/f017ed45",
+           "description": "Deepit walks us through product milestones and decisions that made Inshorts successful.",
+           "encoded": "Deepit is the co-founder at Inshorts, one of the most popular news apps in the country. In this episode, Deepit talks walks us through product milestones and decisions that made it successful.<br><br><a href=\"https://www.linkedin.com/in/deepit-purkayastha-5751377/\">Connect with Deepit Purkayastha<\/a><br><br>If you have a minute to spare, we would love to know what you thought of the episode. Every bit of feedback is invaluable!<br><br><a href=\"https://startupgreenroom.com\">startupgreenroom.com<\/a> / <a href=\"https://twitter.com/arjunattam\">Arjun on Twitter<\/a> / <a href=\"https://twitter.com/alokikbhasin\">Alokik on Twitter<\/a> / <a href=\"mailto:startupgreenroom@gmail.com\">startupgreenroom@gmail.com<\/a>",
+           "pubDate": "Thu, 18 Apr 2019 09:00:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/4e61fe8f.mp3",
+              "@length": "53636178"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/show/1524/full_1554610647-artwork.jpg"
+           },
+           "duration": "2233",
+           "summary": "Deepit walks us through product milestones and decisions that made Inshorts successful.",
+           "subtitle": "Deepit walks us through product milestones and decisions that made Inshorts successful.",
+           "keywords": "india, startup, tech, technology, greenroom, green room, startup greenroom, Flipkart,Paytm,Ola,Uber,funding",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        },
+        {
+           "title": [
+              "Pilot",
+              "Pilot"
+           ],
+           "episode": "1",
+           "episodeType": "full",
+           "block": [
+              "No",
+              "No"
+           ],
+           "guid": {
+              "@isPermaLink": "false",
+              "#text": "e3c76bdd-61ac-4ea9-b8b5-dde27b26a02b"
+           },
+           "link": "https://share.transistor.fm/s/fdbba110",
+           "description": "Arjun and Alokik walk you through the idea behind The Startup Green Room, and share a sneak peek on what to expect from the following episodes.",
+           "pubDate": "Thu, 04 Apr 2019 21:30:00 +0530",
+           "author": [
+              "Alokik Bhasin, Arjun Attam",
+              "Alokik Bhasin, Arjun Attam"
+           ],
+           "enclosure": {
+              "@url": "https://storage.googleapis.com/tsgr-episodes/40bda505.mp3",
+              "@length": "10630788"
+           },
+           "image": {
+              "@href": "https://images.transistor.fm/file/transistor/images/episode/39514/full_1554435873-artwork.jpg"
+           },
+           "duration": "442",
+           "summary": "Arjun and Alokik walk you through the idea behind The Startup Green Room, and share a sneak peek on what to expect from the following episodes.",
+           "subtitle": "Arjun and Alokik walk you through the idea behind The Startup Green Room, and share a sneak peek on what to expect from the following episodes.",
+           "keywords": "india, startups",
+           "explicit": [
+              "No",
+              "No"
+           ]
+        }
+     ]
+  }
+}
