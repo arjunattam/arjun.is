@@ -1,0 +1,21 @@
+.tsgr__header {
+  display: flex;
+}
+  .tsgr__header img {
+    width: 300px;
+  }
+
+.tsgr__controls {
+  border-top: 1px #ccc solid;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.tsgr__item {
+  border-top: 1px #ccc solid;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+  .tsgr__item audio {
+    width: 100%;
+  }
