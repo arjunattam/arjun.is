@@ -3,22 +3,26 @@
 }
   .tsgr__header img {
     width: 300px;
+    border-radius: 6px;
   }
 
 .tsgr__controls {
-  border-top: 1px #ccc solid;
-  padding: 20px 0;
+  padding: 20px 0 0;
   margin: 20px 0;
 }
 
 .tsgr__item {
-  border-top: 1px #ccc solid;
+  border-top: 3px #ddd solid;
   padding: 20px 0;
   margin: 20px 0;
 }
-  /* .tsgr__item details */
-
+  .tsgr__item details > summary {
+    list-style: none;
+  }
+  .tsgr__item details > summary::-webkit-details-marker {
+    display: none;
+  }
   .tsgr__item audio {
-    margin-top: 20px;
+    margin: 10px 0;
     width: 100%;
   }
