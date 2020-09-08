@@ -20,6 +20,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
+  eleventyConfig.addFilter("readablePodcastDate", dateStr => {
+    return DateTime.fromFormat(dateStr.substring(0, 16), 'EEE, dd LLL yyyy').toFormat("dd LLL yyyy");
+  });
   eleventyConfig.addFilter("year", year);
   eleventyConfig.addFilter("keys", obj => Object.keys(obj));
   eleventyConfig.addFilter("groupPostsByYear", posts => {

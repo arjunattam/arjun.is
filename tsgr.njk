@@ -1,4 +1,5 @@
 ---
+title: "The Startup Green Room"
 layout: layouts/home.njk
 permalink: /tsgr/
 ---
@@ -9,45 +10,36 @@ permalink: /tsgr/
   </div>
 
   <div>
-  <h1>The Startup Green Room</h1>
-
-  <div>Behind the scenes with operators building India's best tech startups
-  </div>
-    April 2019 to March 2020
-    14 episodes
-
-
-    <ul>
-      <li>Goals of the podcast</li>
-      <li>with Alokik</li>
-      <li>Spanning x months and y episodes</li>
-    </ul>
+    <div>with <a href="https://twitter.com/alokikbhasin">Alokik Bhasin</a></div>
+    <div>Behind the scenes with operators building India's best tech startups</div>
+    <div>14 episodes between April 2019 to March 2020</div>
+    
+    <div>
+      We wanted to learn about product management at Indian startups. And so we
+      spoke to the best operators.    
+    </div>
+    <div>
   </div>
 </div>
 
 <div class="tsgr__controls">
   <label for="speed">Playback speed</label>
-  <select name="speed" id="speed">
+  <select name="speed" id="speed" onchange="[...document.querySelectorAll('audio')].map(e => e.playbackRate=this.value);">
     <option value="1.0">1x</option>
-    <option value="1.0">1.25x</option>
-    <option value="1.0">1.5x</option>
-    <option value="1.0">1.75x</option>
-    <option value="1.0">2x</option>
+    <option value="1.25">1.25x</option>
+    <option value="1.5">1.5x</option>
+    <option value="1.75">1.75x</option>
+    <option value="2.0">2x</option>
   </select>
 </div>
 
 {% for e in podcast.feed.channel.item %}
 <div class="tsgr__item">
-  <span>EPISODE #{{ e.episode }}</span>
+  <div class="info">Episode #{{ e.episode }} • {{ e.pubDate | readablePodcastDate }} • {{ (e.duration / 60) | round }} mins</div>
   <h2>
     {{ e.title[0] }}
   </h2>
-  <p>
-    {{ e.pubDate }}
-  </p>
-  <p>
-    {{ e.description }}
-  </p>
+  <p>{{ e.description }}</p>
   <details>
     <summary>Full description</summary>
     <p>{{ e.encoded | safe }}</p>
