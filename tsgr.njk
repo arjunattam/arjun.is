@@ -1,0 +1,55 @@
+---
+title: "The Startup Green Room"
+layout: layouts/home.njk
+permalink: /podcast/
+eleventyNavigation:
+  key: Podcast
+  order: 3
+---
+
+<div class="tsgr__header">
+  <div>
+    <img src="/img/projects/podcast.jpg" />
+  </div>
+
+  <div>
+    <p>With <a href="https://twitter.com/alokikbhasin">Alokik Bhasin</a>.</p>
+    <p>
+      The Startup Green Room podcast was created to share lessons from the best
+      operators in the Indian startup ecosystem. We spoke with founders and product 
+      managers to learn about how they operate: build products, manage teams and
+      keep learning.
+    </p>
+    <p>14 episodes, recorded between April 2019 to March 2020.</p>
+    <div>
+  </div>
+</div>
+
+<div class="tsgr__controls">
+  <label for="speed">Set playback speed</label>
+  <select name="speed" id="speed" onchange="[...document.querySelectorAll('audio')].map(e => e.playbackRate=this.value);">
+    <option value="1.0">1x</option>
+    <option value="1.25">1.25x</option>
+    <option value="1.5">1.5x</option>
+    <option value="1.75">1.75x</option>
+    <option value="2.0">2x</option>
+  </select>
+</div>
+
+{% for e in podcast.feed.channel.item %}
+<div class="tsgr__item">
+  <div class="info">Episode #{{ e.episode }} • {{ e.pubDate | readablePodcastDate }} • {{ (e.duration / 60) | round }} mins</div>
+  <h2>
+    {{ e.title[0] }}
+  </h2>
+  <p>{{ e.description }}</p>
+  <details>
+    <summary>See full description</summary>
+    <p>{{ e.encoded | safe }}</p>
+  </details>
+  <audio controls preload="metadata">
+    <source src="{{ e.enclosure.@url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+{% endfor %}

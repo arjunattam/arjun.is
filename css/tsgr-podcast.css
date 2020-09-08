@@ -1,0 +1,38 @@
+.tsgr__header {
+  margin: 30px 0;
+}
+  .tsgr__header img {
+    width: 300px;
+    border-radius: 6px;
+  }
+
+.tsgr__controls {
+  padding: 30px 0 0;
+  margin: 20px 0;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.tsgr__item {
+  border-top: 3px #eee solid;
+  padding: 20px 0 0;
+  margin: 20px 0;
+}
+  .tsgr__item .info {
+    color: #666;
+  }
+  .tsgr__item details > summary {
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #666;
+  }
+  .tsgr__item details > summary::-webkit-details-marker {
+    display: none;
+  }
+  .tsgr__item audio {
+    margin: 10px 0;
+    width: 100%;
+  }
