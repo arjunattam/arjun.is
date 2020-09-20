@@ -170,7 +170,10 @@ section img {
   }
 }
 
+.caption small {
+  color: var(--dark-gray); 
+}
 .caption a {
-  color: var(--dark-gray);
+  color: var(--dark-gray); 
   box-shadow: none;
 }
