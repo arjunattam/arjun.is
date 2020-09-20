@@ -22,6 +22,14 @@ code {
   padding: 0.125em 1em;
   font-family: var(--mono-fonts);
 }
+hr { 
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1.5em 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
   color: var(--link);
