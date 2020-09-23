@@ -19,7 +19,7 @@ The key insight behind Hey is that existing mail clients need not be supported. 
 ## Gmail killed mail clients
 Gmail made [Ajax][ajax] mainstream, bridging the gap between web and desktop email clients. The Gmail web client was slow to load, but once loaded, it could send and receive emails without page reloads. A fast web client gave little reasons for users to rely on desktop clients. Gmail was the original [single page app][spa].
 
-A large audience on the web client meant Gmail could push features that worked only on the web (chat, categories). The mail server and mail client were unified, and this trend continued with mobile. Gmail continued its dominance on mobile, closely [followed by Apple Mail][market-share]. Web and mobile clients now form [>80% of the email market][market-share], effectively killing the traditional mail client. Apple Mail is the last bastion of the mail client with its popularity on iOS.
+A large audience on the web client meant Gmail could push features that worked only on the web (chat, categories). The mail server and mail client were unified, and this trend continued with mobile. Gmail continued its dominance on mobile, closely [followed by Apple Mail][market-share]. Web and mobile clients now form [>80% of the email market][market-share], effectively killing the traditional mail client. Apple Mail is the last bastion of the standalone mail client with its popularity on iOS.
 
 ## Gmail had blind spots
 The first one was privacy. [DeGoogle](https://www.reddit.com/r/degoogle/) is the latest in the list of Google-related colloquial verbs. To "degoogle" yourself is to expel Google from your life and regain privacy.
