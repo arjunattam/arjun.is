@@ -29,7 +29,7 @@ The second is not building network effects. Email has inherent network effects: 
 By killing IMAP clients and giving users reason to switch, Gmail has created an opportunity.
 
 ## Basecamp was uniquely positioned
-The total addressable market for privacy is not large enough for the typical Silicon Valley/VC model. But given it's email, it had to someone with existing credibility. Basecamp fulfilled this criteria. From [their FAQs][faqs]:
+The total addressable market for privacy is not large enough for the typical Silicon Valley/VC model. But given it's email, it had to be someone with existing credibility. Basecamp fulfilled this criteria. From [their FAQs][faqs]:
 
 > Why should I trust you with my email? Great question. We’ve been in business for 21 years, have a widely-respected reputation for building great products, our uptime record is exceptional, we’re completely independent and don’t answer to the whims of investors or corporate overlords, and we’re financially stable with 21 profitable years in a row.
 
