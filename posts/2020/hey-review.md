@@ -6,7 +6,7 @@ tags:
   - product
 ---
 
-I was introduced to [Hey][3] by [Jason Fried's demo video][1], which might be one of my favorite product demo videos ever. The ideas behind Hey seem very obviously good, which makes you think: 1. Will this _actually_ fix my email, and 2. Why has no one ever done this before? I cover the first question in this post.
+I was introduced to [Hey][3] by [Jason Fried's demo video][1], which might be one of my favorite product demo videos ever. The ideas behind Hey seem very obviously good, which makes you think: 1. Will this _actually_ fix my email, and 2. Why has no one ever done this before? I cover the first question in this post. (Edit: The [second post is now up](/posts/2020/hey-gmail).)
 
 I love getting email, but my personal Gmail inbox feels like an overflowing box of dirty rags that could use some love. Auto-classifying emails into social and promotions was an improvement, but [that was 2013][2], and my email habits have evolved.
 
