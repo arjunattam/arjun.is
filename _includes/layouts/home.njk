@@ -1,6 +1,10 @@
 ---
 layout: layouts/base.njk
 ---
+{% include "layouts/header.njk" %}
+
 <main>
 {{ content | safe }}
 </main>
+
+{% include "layouts/footer.njk" %}
