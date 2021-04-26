@@ -29,7 +29,7 @@ eleventyNavigation:
   <div class="posts-header">
     <h2>Posts</h2><a class="fade" href="/feed/feed.xml">feed</a>
   </div>
-  {% set postslist = collections.posts | head(-10) %}
+  {% set postslist = collections.posts | head(-50) %}
   {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}
 </section>
