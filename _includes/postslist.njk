@@ -2,7 +2,7 @@
 
 {% for year in groupedposts | keys | reverse %}
   <div class="postyear">
-    <h4 class="mono">{{ year }}</h2>
+    <div class="mono fade postlist-year">{{ year }}</div>
 
     {% set posts = groupedposts[year] %}
     <ul class="postlist">

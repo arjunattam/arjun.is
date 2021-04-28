@@ -1,13 +1,16 @@
 ---
 layout: layouts/base.njk
 ---
+
+{% include "layouts/header.njk" %}
+
 <main>
   <article>
 
     <h1>{{ title }}</h1>
 
     {% if date %}
-    <div class="postdate fade">{{ date | readableDate }}</div>
+    <div class="postlist-date fade">{{ date | readableDate }}</div>
     {% endif %}
 
     {{ content | safe }}
@@ -16,3 +19,4 @@ layout: layouts/base.njk
   </article>
 </main>
 
+{% include "layouts/footer.njk" %}
