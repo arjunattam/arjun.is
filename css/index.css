@@ -163,6 +163,14 @@ ul.postlist li {
   color: var(--dark-gray);
   border-radius: 7px;
 }
+.posttag a {
+  color: var(--dark-gray);
+  box-shadow: none;
+}
+.posttag a:hover {
+  color: var(--link);
+  background-color: var(--light-gray);
+}
 
 /** Projects **/
 .project {
