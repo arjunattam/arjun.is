@@ -3,7 +3,6 @@ title: "Idealism, anarchism and decentralization"
 date: 2018-04-12
 tags:
   - books
-  - decentralization
   - blockchain
 ---
 
