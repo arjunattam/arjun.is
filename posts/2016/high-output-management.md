@@ -1,7 +1,7 @@
 ---
 title: "High Output Management"
 date: 2016-12-06
-categories:
+tags:
    - books
    - management
 ---

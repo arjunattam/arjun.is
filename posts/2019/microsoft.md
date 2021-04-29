@@ -1,6 +1,8 @@
 ---
 title: "Lucked into Microsoft"
 date: 2019-04-28
+tags:
+  - career
 ---
 
 My 15 year old Linux fanboy self would have never believed it if he was told that one day he would work at Microsoft. Turns out that is exactly what happened. Here's how.

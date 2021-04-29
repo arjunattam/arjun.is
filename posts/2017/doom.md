@@ -1,6 +1,9 @@
 ---
 title: "Masters of Doom"
 date: 2017-09-30
+tags:
+  - books
+  - gaming
 ---
 
 David Kushner's Masters of Doom brought back memories of hours in high school spent gaming. This was mid 2000s, when Delhi school computers could only properly handle the graphic engines released in 1999: Quake 3, Unreal Tournament, and not to forget, Counter Strike 1.6.

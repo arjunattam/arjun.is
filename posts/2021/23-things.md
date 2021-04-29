@@ -3,6 +3,7 @@ title: "More than just stating the obvious"
 date: 2021-04-26
 tags:
   - economics
+  - books
 ---
 
 The footer on the [Y Combinator website](https://www.ycombinator.com) reads, in bold: “Make something people want”. This would not surprise anyone that has read Paul Graham, or followed YC folklore. But isn’t it obvious, and therefore adds no value? Why would a product exist, if it is not something that people want? Is it merely an uncontroversial motivational phrase that is easy to remember? I think there’s more to it.

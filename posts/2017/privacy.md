@@ -1,7 +1,7 @@
 ---
 title: "War and privacy"
 date: 2017-12-24
-categories: 
+tags:
   - books
   - privacy
   - history

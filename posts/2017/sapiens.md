@@ -1,6 +1,8 @@
 ---
 title: "Why is everyone reading Sapiens?"
 date: 2017-01-15
+tags:
+  - books
 ---
 
 With my twitter feed talking about books this December, I was struck by how popular [Sapiens: A Brief History of Humankind](https://www.goodreads.com/book/show/23692271-sapiens) was. These weren't people who exchange book recommendations with each other, so there had to be an external cause to this. And Sapiens is not a recent popular release like Michael Lewis' [The Undoing Project](https://www.goodreads.com/book/show/30334134-the-undoing-project) that I would expect to be universally popular at launch.

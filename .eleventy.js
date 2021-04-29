@@ -28,7 +28,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("keys", obj => Object.keys(obj));
   eleventyConfig.addFilter("groupPostsByYear", posts => {
     let res = {};
-    posts.forEach((post, index) => {
+    posts.forEach(post => {
       let key = year(post.date);
       (res[key] || (res[key] = [])).push(post);
     })

@@ -1,7 +1,7 @@
 ---
 title: "Kahneman and caching"
 date: 2018-02-03
-categories: 
+tags:
   - books
   - psychology
 ---

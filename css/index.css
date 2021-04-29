@@ -152,6 +152,17 @@ ul.postlist {
 ul.postlist li {
   margin-bottom: 10px;
 }
+.posttag-list {
+  margin-left: 5px;
+}
+.posttag {
+  background-color: var(--light-gray);
+  font-size: 12px;
+  padding: 3px 5px;
+  margin-left: 5px;
+  color: var(--dark-gray);
+  border-radius: 7px;
+}
 
 /** Projects **/
 .project {
