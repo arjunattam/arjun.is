@@ -100,6 +100,11 @@ article img {
 article h1 {
   /** https://stackoverflow.com/questions/39547412/same-font-size-for-h1-and-h2-in-article */ 
   font-size: 2em;
+  margin-bottom: 0.25em;
+  border-bottom: 1px solid #eee;
+}
+.post-title {
+  margin-bottom: 2em;
 }
 
 /** Footnotes **/
