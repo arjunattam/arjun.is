@@ -11,7 +11,17 @@ layout: layouts/base.njk
       <h1>{{ title }}</h1>
 
       {% if date %}
-      <div class="postlist-date fade">{{ date | readableDate }}</div>
+      <span class="postlist-date fade">{{ date | readableDate }}</span>
+      {% endif %}
+      {% if tags %}
+      <span class="posttag-list">
+        {% for tag in tags %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          {% if tag != "posts" %}
+            <span class="posttag"><a href="{{ tagUrl | url }}">{{ tag }}</a></span>
+          {% endif %}
+        {% endfor %}
+      </span>
       {% endif %}
     </div>
 

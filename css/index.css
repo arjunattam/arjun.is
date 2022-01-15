@@ -1,22 +1,28 @@
 :root {
-  --highlight:  rgb(251, 255, 0);
-  --black: rgb(27, 27, 27);
-  --dark-gray: #808082;
-  --light-gray: #eee;
-  --link: blue;
+  --bg-black: #16180b;
+  --white: #ededed;
+  --green: rgb(72, 213, 151);
+  --yellow: rgb(245, 207, 101);
+  --dark-yellow: #b58d1f;
+  --bg-yellow: #4a4433;
+  --bg-gray: #272a1f;
+  --dark-green: #1f4a42;
+  --text-gray: rgb(150, 154, 156);
   --mono-fonts: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --sans-fonts: "Libre Franklin", -apple-system, system-ui, sans-serif;
 }
 body {
   margin: 0;
   font-size: 16px;
-  font-family: -apple-system, system-ui, sans-serif;
-  color: var(--black);
+  font-family: var(--sans-fonts);
+  color: var(--white);
   line-height: 1.75;
+  background-color: var(--bg-black);
 }
 blockquote {
   margin: 1.2em 2em 1.2em 0;
   padding-left: 2em;
-  border-left: 1px solid #D0D8E0;
+  border-left: 1px solid var(--bg-gray);
 }
 code {
   padding: 0.125em 1em;
@@ -26,28 +32,27 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--dark-gray);
   margin: 1.5em 0;
   padding: 0;
 }
 a {
   text-decoration: none;
-  color: var(--link);
-  box-shadow: inset 0 -2px var(--highlight);
+  color: var(--green);
+  box-shadow: inset 0 -2px var(--dark-green);
 }
 a:visited {
-  color: var(--link);
+  color: var(--green);
 }
 a:hover {
-  background-color: var(--highlight);
+  background-color: var(--dark-green);
   box-shadow: none;
 }
 .fade {
-  color: var(--dark-gray);
+  color: var(--text-gray);
 }
 .mono {
   font-family: var(--mono-fonts);
-  text-transform: uppercase;
 }
 
 /** Container **/
@@ -60,24 +65,26 @@ main {
 /** Header **/
 header {
   display: flex;
-  padding: 15px 10px;
+  padding: 15px 10px 25px 10px;
   max-width: 36rem;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-header a {
-  color: var(--dark-gray);
+header a, header a:visited {
+  color: var(--yellow);
+  box-shadow: none;
 }
-header a:visited {
-  color: var(--dark-gray);
+header a:hover {
+  background-color: var(--bg-yellow);
+  box-shadow: none;
 }
 
 /** Navigation **/
 nav {
   display: inline-block;
-  color: var(--light-gray);
+  color: var(--bg-yellow);
 }
 nav ul {
   margin: 0;
@@ -87,8 +94,11 @@ nav ul {
 }
 nav li {
   display: inline;
+  margin-left: 7px;
 }
-
+nav li a, nav li a:visited {
+  color: var(--dark-yellow);
+}
 nav li::before{
   content: " /";
 }
@@ -101,7 +111,7 @@ article h1 {
   /** https://stackoverflow.com/questions/39547412/same-font-size-for-h1-and-h2-in-article */ 
   font-size: 2em;
   margin-bottom: 0.25em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--bg-gray);
 }
 .post-title {
   margin-bottom: 2em;
@@ -112,7 +122,7 @@ hr.footnotes-sep {
   display: none;
 }
 section.footnotes {
-  border-top: 1px solid var(--light-gray);
+  border-top: 1px solid var(--bg-gray);
 }
 ol.footnotes-list {
   padding-inline-start: 20px;
@@ -123,13 +133,16 @@ footer {
   margin: 70px auto;
   padding: 0 10px;
   max-width: 36rem;
-  color: var(--light-gray);
+  color: var(--bg-yellow);
+  font-size: 14px;
 }
-footer a {
-  color: var(--dark-gray);
+footer a, footer a:visited {
+  color: var(--dark-yellow);
+  box-shadow: none;
 }
-footer a:visited {
-  color: var(--dark-gray);
+footer a:hover {
+  background-color: var(--bg-yellow);
+  box-shadow: none;
 }
 
 /** Posts list **/
@@ -161,20 +174,24 @@ ul.postlist li {
   margin-left: 5px;
 }
 .posttag {
-  background-color: var(--light-gray);
+  font-family: var(--mono-fonts);
+  background-color: var(--bg-gray);
   font-size: 12px;
   padding: 3px 5px;
   margin-left: 5px;
-  color: var(--dark-gray);
+  color: var(--text-gray);
   border-radius: 7px;
 }
-.posttag a {
-  color: var(--dark-gray);
+.posttag a, .posttag a:visited {
+  color: var(--text-gray);
   box-shadow: none;
 }
 .posttag a:hover {
-  color: var(--link);
-  background-color: var(--light-gray);
+  color: var(--yellow);
+  background-color: var(--bg-yellow);
+}
+.posttag:hover {
+  background-color: var(--bg-yellow);
 }
 
 /** Projects **/
@@ -189,8 +206,8 @@ ul.postlist li {
 /** Home sections **/
 section {
   margin: 30px 0;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--light-gray);
+  padding: 15px 0;
+  border-bottom: 1px solid var(--bg-gray);
 }
 section img {
   max-width: 140%;
@@ -206,9 +223,27 @@ section img {
 }
 
 .caption small {
-  color: var(--dark-gray); 
+  color: var(--text-gray); 
 }
 .caption a {
-  color: var(--dark-gray); 
+  color: var(--text-gray); 
+  box-shadow: none;
+}
+.caption a:hover {
+  background-color: var(--bg-gray);
+}
+
+h1, h2 {
+  color: var(--yellow);
+  font-weight: normal;
+  line-height: 1.25;
+}
+a.feed-link, a.feed-link:visited {
+  color: var(--dark-yellow);
+  box-shadow: inset 0 -2px var(--bg-yellow);
+  font-size: 14px;
+}
+a.feed-link:hover {
+  background-color: var(--bg-yellow);
   box-shadow: none;
 }
