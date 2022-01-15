@@ -170,15 +170,12 @@ ul.postlist {
 ul.postlist li {
   margin-bottom: 10px;
 }
-.posttag-list {
-  margin-left: 5px;
-}
 .posttag {
   font-family: var(--mono-fonts);
   background-color: var(--bg-gray);
   font-size: 12px;
   padding: 3px 5px;
-  margin-left: 5px;
+  margin-right: 5px;
   color: var(--text-gray);
   border-radius: 7px;
 }
@@ -212,7 +209,6 @@ section {
 section img {
   max-width: 140%;
   transform: translateX(-10%);
-  border-radius: 6px;
 }
 @media only screen and (max-width: 600px) {
   section img {
