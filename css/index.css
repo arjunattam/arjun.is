@@ -212,6 +212,7 @@ section {
 section img {
   max-width: 140%;
   transform: translateX(-10%);
+  border-radius: 6px;
 }
 @media only screen and (max-width: 600px) {
   section img {
@@ -247,3 +248,47 @@ a.feed-link:hover {
   background-color: var(--bg-yellow);
   box-shadow: none;
 }
+
+/** Podcast **/
+.tsgr__header {
+  margin: 30px 0;
+}
+  .tsgr__header img {
+    width: 300px;
+    border-radius: 6px;
+  }
+
+.tsgr__controls {
+  padding: 40px 0 0;
+  margin: 20px 0;
+  color: var(--dark-yellow);
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+}
+  .tsgr__controls label {
+    margin-right: 7px;
+  }
+
+.tsgr__item {
+  border-top: 1px var(--bg-gray) solid;
+  padding: 20px 0 0;
+  margin: 20px 0;
+}
+  .tsgr__item .info {
+    color: var(--text-gray);
+  }
+  .tsgr__item details > summary {
+    font-size: 14px;
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--text-gray)
+  }
+  .tsgr__item details > summary::-webkit-details-marker {
+    display: none;
+  }
+  .tsgr__item audio {
+    margin: 25px 0;
+    width: 100%;
+  }

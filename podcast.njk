@@ -13,7 +13,7 @@ eleventyNavigation:
   </div>
 
   <div>
-    <p>With <a href="https://twitter.com/alokikbhasin">Alokik Bhasin</a>.</p>
+    <p>Hosted with <a href="https://twitter.com/alokikbhasin">Alokik Bhasin</a>.</p>
     <p>
       The Startup Green Room podcast was created to share lessons from the best
       operators in the Indian startup ecosystem. We spoke with founders and product 
@@ -26,7 +26,7 @@ eleventyNavigation:
 </div>
 
 <div class="tsgr__controls">
-  <label for="speed">Set playback speed</label>
+  <label for="speed">Playback speed</label>
   <select name="speed" id="speed" onchange="[...document.querySelectorAll('audio')].map(e => e.playbackRate=this.value);">
     <option value="1.0">1x</option>
     <option value="1.25">1.25x</option>
@@ -44,7 +44,7 @@ eleventyNavigation:
   </h2>
   <p>{{ e.description }}</p>
   <details>
-    <summary>See full description</summary>
+    <summary>See more</summary>
     <p>{{ e.encoded | safe }}</p>
   </details>
   <audio controls preload="metadata">
