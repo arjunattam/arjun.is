@@ -170,6 +170,9 @@ ul.postlist {
 ul.postlist li {
   margin-bottom: 10px;
 }
+a.postlist-link {
+  margin-right: 8px;
+}
 .posttag {
   font-family: var(--mono-fonts);
   background-color: var(--bg-gray);
