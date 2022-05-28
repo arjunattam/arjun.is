@@ -3,9 +3,9 @@ const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItFootnote = require("markdown-it-footnote");
+const md = require("markdown-it");
+const anchor = require("markdown-it-anchor");
+const footnote = require("markdown-it-footnote");
 
 function year(dateObj) {
   return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
@@ -62,15 +62,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
 
   /* Markdown Overrides */
-  let markdownLibrary = markdownIt({
+  let markdownLibrary = md({
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkClass: "direct-link",
-    permalinkSymbol: "#"
-  }).use(markdownItFootnote);
+  }).use(anchor, {
+    permalink: anchor.permalink.linkInsideHeader({
+      symbol: `
+        <span aria-hidden="true">#</span>
+      `,
+      placement: 'after'
+    })
+  }).use(footnote);
+
   // Footnote styling
   // http://dirtystylus.com/2020/06/15/eleventy-markdown-and-footnotes/
   markdownLibrary.renderer.rules.footnote_caption = (tokens, idx) => {
