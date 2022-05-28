@@ -32,7 +32,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid var(--dark-gray);
+  border-top: 1px solid var(--bg-gray);
   margin: 1.5em 0;
   padding: 0;
 }
@@ -77,7 +77,7 @@ header a, header a:visited {
   box-shadow: none;
 }
 header a:hover {
-  background-color: var(--bg-yellow);
+  background-color: var(--dark-green);
   box-shadow: none;
 }
 
@@ -246,6 +246,9 @@ a.feed-link, a.feed-link:visited {
 a.feed-link:hover {
   background-color: var(--bg-yellow);
   box-shadow: none;
+}
+a.header-anchor {
+  font-size: 75%;
 }
 
 /** Podcast **/
