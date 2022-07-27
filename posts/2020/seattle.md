@@ -1,5 +1,5 @@
 ---
-title: "Seattle, June 2022"
+title: "Seattle, June 2027"
 date: 2020-06-22
 tags:
   - scifi
