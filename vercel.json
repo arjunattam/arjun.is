@@ -1,7 +1,7 @@
 {
   "routes": [{
-    "src": "/stream",
-    "dest": "https://us02web.zoom.us/j/82491217627",
+    "src": "/at",
+    "dest": "https://arjun100ms-foo.app.100ms.live/meeting/quo-bzk-osm",
     "status": 307
   }]
 }
