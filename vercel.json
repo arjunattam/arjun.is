@@ -2,6 +2,6 @@
   "routes": [{
     "src": "/at",
     "dest": "https://arjun100ms-foo.app.100ms.live/meeting/quo-bzk-osm",
-    "status": 307
+    "permanent": true
   }]
 }
