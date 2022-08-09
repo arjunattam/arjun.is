@@ -237,6 +237,8 @@ h1, h2, h3, h4 {
   color: var(--yellow);
   font-weight: normal;
   line-height: 1.25;
+  font-family: 'Arvo', 'Maiden Orange';
+  margin-block-start: 1.2em;
 }
 a.feed-link, a.feed-link:visited {
   color: var(--dark-yellow);
