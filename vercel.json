@@ -1,7 +1,7 @@
 {
-  "routes": [{
-    "src": "/at",
-    "dest": "https://arjun100ms-foo.app.100ms.live/meeting/quo-bzk-osm",
+  "redirects": [{
+    "source": "/at",
+    "destination": "https://arjun100ms-foo.app.100ms.live/meeting/quo-bzk-osm",
     "permanent": true
   }]
 }
