@@ -116,6 +116,11 @@ article h1 {
 .post-title {
   margin-bottom: 2em;
 }
+.post-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
 
 /** Footnotes **/
 hr.footnotes-sep {
