@@ -6,6 +6,11 @@
       "permanent": true
     },
     {
+      "source": "/at-alt",
+      "destination": "https://arjun100ms-foo.app.100ms.live/preview/quo-bzk-osm",
+      "permanent": true
+    },
+    {
       "source": "/at-mux",
       "destination": "https://mux-meet-arjun27.vercel.app/space/wAQ6KcynehDKKcu8I8z01O6g79T3WduVcp4vpwpibLgw",
       "permanent": true
