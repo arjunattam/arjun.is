@@ -11,9 +11,9 @@ pagination:
     - tagList
   addAllPagesToCollections: true
 layout: layouts/home.njk
-renderData:
-  title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
+eleventyComputed:
+  title: Tagged “{{ tag }}”
 ---
 <h1>Tagged “{{ tag }}”</h1>
 

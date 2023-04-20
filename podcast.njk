@@ -36,7 +36,7 @@ eleventyNavigation:
   </select>
 </div>
 
-{% for e in podcast.feed.channel.item %}
+{% for e in podcast.channel.item %}
 <div class="tsgr__item">
   <div class="info">Episode #{{ e.episode }} • {{ e.pubDate | readablePodcastDate }} • {{ (e.duration / 60) | round }} mins</div>
   <h2>
