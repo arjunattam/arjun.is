@@ -30,6 +30,13 @@ eleventyNavigation:
     <h2>Writing</h2><a class="feed-link" href="/feed/feed.xml">feed</a>
   </div>
   {% set postslist = collections.posts | head(-50) %}
-  {% set postslistCounter = collections.posts | length %}
+  {% include "postslist.njk" %}
+</section>
+
+<section>
+  <div class="posts-header">
+    <h2>Writing</h2><a class="feed-link" href="/feed/feed.xml">feed</a>
+  </div>
+  {% set postslist = collections.githubIssues | head(-50) %}
   {% include "postslist.njk" %}
 </section>

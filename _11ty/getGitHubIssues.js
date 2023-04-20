@@ -33,16 +33,23 @@ module.exports = async function () {
   const issues = await getIssues();
   return issues
     .filter((issue) => {
-      // You can remove this is you want issues from everyone to be rendered.
-      return issue.author_association === "OWNER";
+      return issue.author_association === "OWNER" && !issue.pull_request;
     })
     .map((issue) => {
       const id = parseInt(issue.html_url.split("/").at(-1), 10);
 
       return {
-        path: `/issues/${id}`,
-        title: issue.title,
-        body: issue.body,
+        date: new Date(issue.updated_at),
+        url: `/issues/${id}`,
+        data: {
+          id: id,
+          title: issue.title,
+          body: issue.body,
+          tags: [ 'posts', 'product', 'hiring' ],
+          layout: 'layouts/post.njk',
+        },
+        inputPath: './posts/2022/intent-validation.md',
+        fileSlug: 'intent-validation',
       };
     });
 };
