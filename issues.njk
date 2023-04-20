@@ -1,0 +1,12 @@
+---
+permalink: /issues/
+layout: layouts/home.njk
+---
+<h1>Issues</h1>
+
+{% for issue in collections.githubIssues %}
+  <div>
+    <h2>{{ issue.title }}</h2>
+    <p>{{ issue.body }}</p>
+  </div>
+{% endfor %}
