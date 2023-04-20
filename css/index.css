@@ -54,6 +54,9 @@ a:hover {
 .mono {
   font-family: var(--mono-fonts);
 }
+pre {
+  border-radius: 4px;
+}
 
 /** Container **/
 main {
