@@ -1,12 +1,10 @@
 const { DateTime } = require("luxon");
-const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const md = require("markdown-it");
 const anchor = require("markdown-it-anchor");
 const footnote = require("markdown-it-footnote");
-const eleventyNavigation = require("@11ty/eleventy-navigation/eleventy-navigation");
 
 function year(dateObj) {
   return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
@@ -16,8 +14,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-
-  // eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
