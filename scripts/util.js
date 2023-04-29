@@ -106,7 +106,11 @@ async function main() {
     changeCwd();
     const filesWritten = await convertIssueIntoPost();
 
-    // addToGitIgnore(filesWritten);
+    // vercel doesn't pick up files that are in gitignore
+    // https://vercel.com/docs/concepts/projects/environment-variables/system-environment-variables
+    if (!process.env.VERCEL) {
+        addToGitIgnore(filesWritten);
+    }
 }
 
 main();
