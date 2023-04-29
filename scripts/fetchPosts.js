@@ -28,7 +28,6 @@ function getPassthroughLabels(issue) {
 
 function filtered(issues) {
     return issues.filter(issue => {
-        console.log(issue.title, hasPublishedLabel(issue));
         return hasPublishedLabel(issue) && issue.author_association === "OWNER" && !issue.pull_request
     })
 }
@@ -70,21 +69,20 @@ function createFrontmatter(title, date, tags) {
 function changeCwd() {
     const scriptDirectory = path.dirname(process.argv[1]);
     process.chdir(scriptDirectory);
-    console.log(process.cwd());
 }
 
 async function convertIssueIntoPost() {
     const issues = await getIssues();
     const filesWritten = [];
 
-    issues.forEach((issue, idx) => {
-        // if folder doesn't exist it'll break
+    issues.forEach(issue => {
         const date = new Date(issue.updated_at);
         const year = date.getFullYear();
         const tags = getPassthroughLabels(issue);
         const newPath = path.join(POSTS_DIR, `${year}`, `${slugify(issue.title)}.md`);
         
         const fm = createFrontmatter(issue.title, date, tags);
+        // TODO: this requires the year dir to exist => solved by `posts/2023/.gitkeep`
         fs.writeFileSync(newPath, `${fm}\n${issue.body}`.replace(/\r\n/gm, "\n"));
         filesWritten.push(newPath);
     });
@@ -96,13 +94,10 @@ function addToGitIgnore(paths) {
     // paths are based on cwd as the scripts directory
     // for gitignore, paths need to be based on repo root
     const cleanPaths = paths.map(path => path.replace('../', ''));
-
-    console.log(cleanPaths);
     fs.appendFileSync(GITIGNORE_PATH, `\n\n${cleanPaths.join('\n')}`);
 }
 
 async function main() {
-    console.log(process.cwd());
     changeCwd();
     const filesWritten = await convertIssueIntoPost();
 

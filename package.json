@@ -1,7 +1,7 @@
 {
   "name": "eleventy-base-blog",
   "scripts": {
-    "prebuild": "node scripts/util.js",
+    "prebuild": "node scripts/fetchPosts.js",
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
