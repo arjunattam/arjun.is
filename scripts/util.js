@@ -106,7 +106,7 @@ async function main() {
     changeCwd();
     const filesWritten = await convertIssueIntoPost();
 
-    addToGitIgnore(filesWritten);
+    // addToGitIgnore(filesWritten);
 }
 
 main();
