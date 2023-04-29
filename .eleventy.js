@@ -47,7 +47,6 @@ module.exports = function(eleventyConfig) {
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => n < 0 ? array.slice(n) : array.slice(0, n));
 
-  eleventyConfig.addCollection("githubIssues", require("./_11ty/getGitHubIssues"));
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
   eleventyConfig.addPassthroughCopy("img");

@@ -2,4 +2,4 @@ _site/
 node_modules/
 package-lock.json
 .env
-_data/.cached-issues.json
+scripts/.cached-issues.json
