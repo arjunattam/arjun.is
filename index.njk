@@ -6,7 +6,10 @@ eleventyNavigation:
 ---
 
 <section>
-  {% include "homephoto.njk" %}
+  <img src="/img/arjun2.jpg" alt="Arjun Attam" />
+  <div class="caption">
+    <small>📍 at the <a href="https://goo.gl/maps/XVs7nH9nShUTwvoZ6">Sun Yat-Sen Garden in Vancouver</a></small>
+  </div>
 </section>
 
 <section>
@@ -30,6 +33,5 @@ eleventyNavigation:
     <h2>Writing</h2><a class="feed-link" href="/feed/feed.xml">feed</a>
   </div>
   {% set postslist = collections.posts | head(-50) %}
-  {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}
 </section>
