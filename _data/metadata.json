@@ -1,9 +1,9 @@
 {
   "title": "Arjun Attam",
   "url": "https://arjun.is/",
-  "description": "Description",
+  "description": "Mostly a public notebook of blog post drafts",
   "feed": {
-    "subtitle": "Arjun Attam's blog",
+    "subtitle": "Mostly a public notebook of blog post drafts",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://arjun.is/"
