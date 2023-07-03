@@ -9,7 +9,7 @@ npm install
 npm run build
 ```
 
-For local setup, run the following (`fetchPosts.js` fetches posts from GitHub Issues).
+For local setup, run the following (`fetchPosts.js` fetches posts from GitHub Issues). Delete `scripts/.cached-issues.json` to force a re-fetch.
 
 ```bash
 node scripts/fetchPosts.js
