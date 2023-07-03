@@ -85,6 +85,8 @@ async function convertIssueIntoPost() {
         // TODO: this requires the year dir to exist => solved by `posts/2023/.gitkeep`
         fs.writeFileSync(newPath, `${fm}\n${issue.body}`.replace(/\r\n/gm, "\n"));
         filesWritten.push(newPath);
+
+        // TODO: handle meta:og image for posts (pick up the first image?)
     });
 
     return filesWritten;
