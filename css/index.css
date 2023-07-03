@@ -20,9 +20,10 @@ body {
   background-color: var(--bg-black);
 }
 blockquote {
+  color: var(--text-gray);
   margin: 1.2em 2em 1.2em 0;
-  padding-left: 2em;
-  border-left: 1px solid var(--bg-gray);
+  padding-left: 1em;
+  border-left: 5px solid var(--bg-gray);
 }
 code {
   padding: 0.125em 1em;
