@@ -90,22 +90,9 @@ async function convertIssueIntoPost() {
     return filesWritten;
 }
 
-function addToGitIgnore(paths) {
-    // paths are based on cwd as the scripts directory
-    // for gitignore, paths need to be based on repo root
-    const cleanPaths = paths.map(path => path.replace('../', ''));
-    fs.appendFileSync(GITIGNORE_PATH, `\n\n${cleanPaths.join('\n')}`);
-}
-
 async function main() {
     changeCwd();
     const filesWritten = await convertIssueIntoPost();
-
-    // vercel doesn't pick up files that are in gitignore
-    // https://vercel.com/docs/concepts/projects/environment-variables/system-environment-variables
-    if (!process.env.VERCEL) {
-        addToGitIgnore(filesWritten);
-    }
 }
 
 main();
