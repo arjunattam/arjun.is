@@ -4,18 +4,21 @@ env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
+# Run this workflow when
+# 1. the updated issue (blog post) has the label meta:published, or
+# 2. an issue had the meta:published label removed
+
 on:
   issues:
     types:
       - opened
       - edited
       - deleted
-      - transferred
-      - closed
-      - reopened
+      - labeled
+      - unlabeled
 
 jobs:
-  Deploy-Production:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
