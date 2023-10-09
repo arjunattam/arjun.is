@@ -28,7 +28,10 @@ layout: layouts/base.njk
     {{ content | safe }}
 
     <div class="post-footer">
-      <div><a href="{{ '/' | url }}">← Home</a></div>
+      <div>
+        <a href="{{ '/' | url }}">← Home</a>
+        {% if issueUrl %} • <a href="{{ issueUrl }}">Comments</a>{% endif %}
+      </div>
       <div><a href="http://twitter.com/arjunattam">Follow me on Twitter ↗</a></div>
     </div>
   </article>

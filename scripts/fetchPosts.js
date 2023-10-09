@@ -58,12 +58,12 @@ function slugify(title) {
     return slug;
 }
 
-function createFrontmatter(title, date, tags) {
+function createFrontmatter(title, date, tags, issueUrl) {
     let yyyy = date.getFullYear();
     let mm = String(date.getMonth() + 1).padStart(2, '0');
     let dd = String(date.getDate()).padStart(2, '0');
     let formattedDate = yyyy + '-' + mm + '-' + dd;
-    return `---\ntitle: "${title.replaceAll('"', '')}"\ndate: ${formattedDate}\ntags: ${JSON.stringify(tags)}\nsource: github\n---\n`;
+    return `---\ntitle: "${title.replaceAll('"', '')}"\ndate: ${formattedDate}\ntags: ${JSON.stringify(tags)}\nsource: github\nissueUrl: ${issueUrl}\n---\n`;
 }
 
 function changeCwd() {
@@ -80,8 +80,9 @@ async function convertIssueIntoPost() {
         const year = date.getFullYear();
         const tags = getPassthroughLabels(issue);
         const newPath = path.join(POSTS_DIR, `${year}`, `${slugify(issue.title)}.md`);
-        
-        const fm = createFrontmatter(issue.title, date, tags);
+
+        const fm = createFrontmatter(issue.title, date, tags, issue.html_url);
+        console.log(fm);
         // TODO: this requires the year dir to exist => solved by `posts/2023/.gitkeep`
         fs.writeFileSync(newPath, `${fm}\n${issue.body}`.replace(/\r\n/gm, "\n"));
         filesWritten.push(newPath);

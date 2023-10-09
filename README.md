@@ -17,7 +17,7 @@ npm run serve
 ```
 
 Pre-requisites for local:
-- Setup a [PAT](https://github.com/settings/tokens?type=beta) in `GITHUB_TOKEN=xyz` in .env
+- Setup a [PAT](https://github.com/settings/tokens?type=beta) in `GITHUB_TOKEN=xyz` in .env. This token needs to have permissions to access issues on this repo
 - (Note to self) While committing changes, don't stage `.md` changes in `.gitignore`
 
 ## How it works
