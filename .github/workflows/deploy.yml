@@ -4,10 +4,6 @@ env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
-# Run this workflow when
-# 1. the updated issue (blog post) has the label meta:published, or
-# 2. an issue had the meta:published label removed
-
 on:
   issues:
     types:
@@ -17,8 +13,16 @@ on:
       - labeled
       - unlabeled
 
+# The workflow has conditional execution, when
+# 1. the updated issue (blog post) has the label meta:published, or
+# 2. an issue had the meta:published label removed
+
 jobs:
   deploy:
+    if: >-
+      (contains(github.event.issue.labels.*.name, 'meta:published')) ||
+      (github.event.action == 'unlabeled' && github.event.label.name == 'meta.published')
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
