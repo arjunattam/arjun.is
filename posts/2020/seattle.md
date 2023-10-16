@@ -1,6 +1,7 @@
 ---
 title: "Seattle, June 2027"
 date: 2020-06-22
+recommended: true
 tags:
   - scifi
 ---

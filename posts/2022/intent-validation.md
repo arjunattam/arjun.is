@@ -1,6 +1,7 @@
 ---
 title: "So, what have you tried?"
 date: 2022-05-28
+recommended: true
 tags:
   - product
   - hiring

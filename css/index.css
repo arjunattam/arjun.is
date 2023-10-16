@@ -11,6 +11,7 @@
   --mono-fonts: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   --sans-fonts: "Libre Franklin", -apple-system, system-ui, sans-serif;
 }
+
 body {
   margin: 0;
   font-size: 16px;
@@ -19,17 +20,20 @@ body {
   line-height: 1.75;
   background-color: var(--bg-black);
 }
+
 blockquote {
   color: var(--text-gray);
   margin: 1.2em 2em 1.2em 0;
   padding-left: 1em;
   border-left: 5px solid var(--bg-gray);
 }
+
 code {
   padding: 0.125em 1em;
   font-family: var(--mono-fonts);
 }
-hr { 
+
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -37,24 +41,30 @@ hr {
   margin: 1.5em 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
   color: var(--green);
   box-shadow: inset 0 -2px var(--dark-green);
 }
+
 a:visited {
   color: var(--green);
 }
+
 a:hover {
   background-color: var(--dark-green);
   box-shadow: none;
 }
+
 .fade {
   color: var(--text-gray);
 }
+
 .mono {
   font-family: var(--mono-fonts);
 }
+
 pre {
   border-radius: 4px;
 }
@@ -76,10 +86,13 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-header a, header a:visited {
+
+header a,
+header a:visited {
   color: var(--yellow);
   box-shadow: none;
 }
+
 header a:hover {
   background-color: var(--dark-green);
   box-shadow: none;
@@ -90,20 +103,25 @@ nav {
   display: inline-block;
   color: var(--bg-yellow);
 }
+
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: inline-block;
 }
+
 nav li {
   display: inline;
   margin-left: 7px;
 }
-nav li a, nav li a:visited {
+
+nav li a,
+nav li a:visited {
   color: var(--dark-yellow);
 }
-nav li::before{
+
+nav li::before {
   content: " /";
 }
 
@@ -111,15 +129,18 @@ nav li::before{
 article img {
   max-width: 100%;
 }
+
 article h1 {
-  /** https://stackoverflow.com/questions/39547412/same-font-size-for-h1-and-h2-in-article */ 
+  /** https://stackoverflow.com/questions/39547412/same-font-size-for-h1-and-h2-in-article */
   font-size: 2em;
   margin-bottom: 0.25em;
   border-bottom: 1px solid var(--bg-gray);
 }
+
 .post-title {
   margin-bottom: 2em;
 }
+
 .post-footer {
   margin-top: 30px;
   display: flex;
@@ -130,9 +151,11 @@ article h1 {
 hr.footnotes-sep {
   display: none;
 }
+
 section.footnotes {
   border-top: 1px solid var(--bg-gray);
 }
+
 ol.footnotes-list {
   padding-inline-start: 20px;
 }
@@ -145,10 +168,13 @@ footer {
   color: var(--bg-yellow);
   font-size: 14px;
 }
-footer a, footer a:visited {
+
+footer a,
+footer a:visited {
   color: var(--dark-yellow);
   box-shadow: none;
 }
+
 footer a:hover {
   background-color: var(--bg-yellow);
   box-shadow: none;
@@ -160,28 +186,35 @@ footer a:hover {
   justify-content: space-between;
   align-items: baseline;
 }
+
 .postyear {
   display: flex;
 }
+
 .postlist-date {
   font-size: 14px;
 }
+
 .postlist-year {
   font-size: 14px;
   margin-top: 2px;
   margin-right: 20px;
 }
+
 ul.postlist {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 ul.postlist li {
   margin-bottom: 10px;
 }
+
 a.postlist-link {
   margin-right: 8px;
 }
+
 .posttag {
   font-family: var(--mono-fonts);
   background-color: var(--bg-gray);
@@ -191,22 +224,36 @@ a.postlist-link {
   color: var(--text-gray);
   border-radius: 7px;
 }
-.posttag a, .posttag a:visited {
+
+.posttag a,
+.posttag a:visited {
   color: var(--text-gray);
   box-shadow: none;
 }
+
 .posttag a:hover {
   color: var(--yellow);
   background-color: var(--bg-yellow);
 }
+
 .posttag:hover {
   background-color: var(--bg-yellow);
+}
+
+.posttag-rec {
+  background-color: color-mix(in srgb, var(--yellow) 90%, transparent);
+  color: var(--bg-yellow);
+}
+
+.posttag-rec:hover {
+  background-color: var(--yellow);
 }
 
 /** Projects **/
 .project {
   display: flex;
 }
+
 .project-icon {
   flex: 0 0 75px;
   margin-right: 45px;
@@ -218,10 +265,12 @@ section {
   padding: 15px 0;
   border-bottom: 1px solid var(--bg-gray);
 }
+
 section img {
   max-width: 140%;
   transform: translateX(-10%);
 }
+
 @media only screen and (max-width: 600px) {
   section img {
     /* Remove parent padding */
@@ -232,32 +281,41 @@ section img {
 }
 
 .caption small {
-  color: var(--text-gray); 
+  color: var(--text-gray);
 }
+
 .caption a {
-  color: var(--text-gray); 
+  color: var(--text-gray);
   box-shadow: none;
 }
+
 .caption a:hover {
   background-color: var(--bg-gray);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--yellow);
   font-weight: normal;
   line-height: 1.25;
   font-family: 'Arvo', 'Maiden Orange';
   margin-block-start: 1.2em;
 }
-a.feed-link, a.feed-link:visited {
+
+a.feed-link,
+a.feed-link:visited {
   color: var(--dark-yellow);
   box-shadow: inset 0 -2px var(--bg-yellow);
   font-size: 14px;
 }
+
 a.feed-link:hover {
   background-color: var(--bg-yellow);
   box-shadow: none;
 }
+
 a.header-anchor {
   font-size: 75%;
 }
@@ -266,10 +324,11 @@ a.header-anchor {
 .tsgr__header {
   margin: 30px 0;
 }
-  .tsgr__header img {
-    width: 300px;
-    border-radius: 6px;
-  }
+
+.tsgr__header img {
+  width: 300px;
+  border-radius: 6px;
+}
 
 .tsgr__controls {
   padding: 40px 0 0;
@@ -279,29 +338,34 @@ a.header-anchor {
   justify-content: end;
   align-items: baseline;
 }
-  .tsgr__controls label {
-    margin-right: 7px;
-  }
+
+.tsgr__controls label {
+  margin-right: 7px;
+}
 
 .tsgr__item {
   border-top: 1px var(--bg-gray) solid;
   padding: 20px 0 0;
   margin: 20px 0;
 }
-  .tsgr__item .info {
-    color: var(--text-gray);
-  }
-  .tsgr__item details > summary {
-    font-size: 14px;
-    list-style: none;
-    text-decoration: underline;
-    cursor: pointer;
-    color: var(--text-gray)
-  }
-  .tsgr__item details > summary::-webkit-details-marker {
-    display: none;
-  }
-  .tsgr__item audio {
-    margin: 25px 0;
-    width: 100%;
-  }
+
+.tsgr__item .info {
+  color: var(--text-gray);
+}
+
+.tsgr__item details>summary {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--text-gray)
+}
+
+.tsgr__item details>summary::-webkit-details-marker {
+  display: none;
+}
+
+.tsgr__item audio {
+  margin: 25px 0;
+  width: 100%;
+}

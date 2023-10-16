@@ -1,6 +1,7 @@
 ---
 title: "Lucked into Microsoft"
 date: 2019-04-28
+recommended: true
 tags:
   - career
 ---
