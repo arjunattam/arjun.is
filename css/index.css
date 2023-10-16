@@ -3,6 +3,7 @@
   --white: #ededed;
   --green: rgb(72, 213, 151);
   --yellow: rgb(245, 207, 101);
+  --faded-yellow: color-mix(in srgb, var(--yellow) 90%, transparent);
   --dark-yellow: #b58d1f;
   --bg-yellow: #4a4433;
   --bg-gray: #272a1f;
@@ -240,13 +241,10 @@ a.postlist-link {
   background-color: var(--bg-yellow);
 }
 
-.posttag-rec {
-  background-color: color-mix(in srgb, var(--yellow) 90%, transparent);
-  color: var(--bg-yellow);
-}
-
+.posttag-rec,
 .posttag-rec:hover {
-  background-color: var(--yellow);
+  background-color: var(--faded-yellow);
+  color: var(--bg-yellow);
 }
 
 /** Projects **/
