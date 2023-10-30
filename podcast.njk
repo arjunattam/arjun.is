@@ -21,7 +21,6 @@ eleventyNavigation:
       keep learning.
     </p>
     <p>14 episodes, recorded between April 2019 to March 2020.</p>
-    <div>
   </div>
 </div>
 
@@ -39,8 +38,11 @@ eleventyNavigation:
 {% for e in podcast.channel.item %}
 <div class="tsgr__item">
   <div class="info">Episode #{{ e.episode }} • {{ e.pubDate | readablePodcastDate }} • {{ (e.duration / 60) | round }} mins</div>
-  <h2>
+  <h2 id="{{ e.title[0] | slugify }}">
     {{ e.title[0] }}
+    <a class="header-anchor" href="#{{ e.title[0] | slugify }}">
+      <span aria-hidden="true">#</span>
+    </a>
   </h2>
   <p>{{ e.description }}</p>
   <details>
