@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
-    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
+    <meta name="og:description" content="{{ renderData.description or description or metadata.description }}">
 
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
@@ -19,8 +20,8 @@
     <script defer src="/_vercel/insights/script.js"></script>
 
     <!-- Meta tags -->
-    <meta property="og:image" content="https://arjun.is/img/arjun2.jpg" />
-    <meta property="og:image:secure_url" content="https://arjun.is/img/arjun2.jpg" />
+    <meta property="og:image" content="{{ (coverImage or '/img/arjun2.jpg') | htmlBaseUrl('https://arjun.is/') }}" />
+    <meta property="og:image:secure_url" content="{{ (coverImage or '/img/arjun2.jpg') | htmlBaseUrl('https://arjun.is/') }}" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@arjunattam" />
