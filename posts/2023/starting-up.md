@@ -4,7 +4,7 @@ description: "Testing description field"
 date: 2023-12-30
 tags: ["career"]
 recommended: true
-headerImage: "/img/2001-monolith-1.webp"
+coverImage: "/img/2001-monolith-1.webp"
 ---
 
 ![Monolith from 2001: A Space Odyssey](/img/2001-monolith-1.webp)
