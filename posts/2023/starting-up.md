@@ -13,11 +13,11 @@ Using an LLM reminds me of apes discovering the monolith in 2001: A Space Odysse
 
 LLMs are undoubtedly capable, but the fact that they are also accessible makes them even more compelling. The capability is only an API call away, which means that anyone who can code can build an AI feature—without any ML expertise.
 
-This enables the 30 million app devs in the world to build highly capable AI features. They will all become [AI engineers](https://www.latent.space/p/ai-engineer)—as they build demos, followed by production-ready apps, for their vertical, geography, and use-case.
+This enables 30 million app devs in the world to build highly capable AI features. They will all become [AI engineers](https://www.latent.space/p/ai-engineer)—as they build demos, followed by production-ready apps, for their vertical, geography, and use-case.
 
 Enabling this persona to be successful is an opportunity for new dev tools, and that will be my focus in 2024. I loved working with [Saikat](https://www.linkedin.com/in/saikat-mitra-5b168924/) at 100ms in 2022-23, and I’m excited about partnering up with him to build this startup. We bonded on building products for developers (since they are a fast-moving audience with high standards), and we want to build a company around our shared values.
 
-It’s early days for us, and I want to share some of beliefs going into this.
+It’s early days for us, and I want to share some of our beliefs going into this.
 
 ## App devs will lead the way
 
@@ -33,15 +33,15 @@ We believe that app developers will lead the way forward, given their proximity 
 
 While working on automated testing in the [Playwright](https://github.com/microsoft/playwright) team at Microsoft, I counter-intuitively realised the importance of manual testing. For app devs building new features, a fast inner loop between coding and eyeballing outputs (e.g. via hot reloads) adds more value than automated testing—which is more valuable later on to prevent regressions.
 
-In the ML world, eyeballing has been disparagingly refered to as “vibe checks” that are not systematic. ML research prefers objective evaluation metrics (e.g. Mixtral scores [70.6% on MMLU](https://mistral.ai/news/mixtral-of-experts/)!)
+In the ML world, eyeballing has been disparagingly refered to as “vibe checks” that are not systematic. Instead, ML research prefers and celebrates objective evaluation metrics: Mixtral scores [70.6% on MMLU](https://mistral.ai/news/mixtral-of-experts/)!
 
-We think vibe checks, and other subjective evaluation is critical for app devs to build intuition. This is especially relevant for LLM use-cases since they involve unstructured data (natural language).
+We think vibe checks (subjective evaluation) are critical for app devs to build intuition. This is especially relevant for LLM use-cases since they involve unstructured data (natural language).
 
 Fast vibe checking is how app devs learnt CSS flexbox and JavaScript, through tools like [JS Fiddle](https://jsfiddle.net/) that shortened the feedback loop between coding and eyeballing. Playground tools (like ChatGPT or [nat.dev](https://github.com/nat/openplayground)) are a great start, but there's lot to build on top for an app dev to be successful.
 
 ## The community gets it
 
-[Screenshots in a blog post](https://blog.roboflow.com/first-impressions-with-google-gemini/) say more about model capabilities to an app dev than scientific benchmarks. Twitter, Reddit are full of examples where devs show what a model can do and how it stacks up against alternatives. These forums have become the focal point for discovering the capabilities of this black box together, like apes around the monolith.
+[Screenshots in a blog post](https://blog.roboflow.com/first-impressions-with-google-gemini/) say more about model capabilities to an app dev than scientific benchmarks. Twitter, Reddit are full of examples where devs show what a model can do and how it compares against alternatives. It feels like these communities have become the focal point for discovering this black box together, like apes around the monolith.
 
 We believe content creators can leverage more powerful tools that go beyond screenshots, and provide content consumers the opportunity to start their own experiments from where they left off.
 
