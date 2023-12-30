@@ -1,13 +1,13 @@
 ---
 title: "Building for the AI engineer"
-description: "Testing description field"
 date: 2023-12-30
 tags: ["career"]
 recommended: true
-coverImage: "/img/2001-monolith-1.webp"
+coverImage: "/img/2001-monolith-1.png"
+description: "I'm building a new startup in 2024"
 ---
 
-![Monolith from 2001: A Space Odyssey](/img/2001-monolith-1.webp)
+![Monolith from 2001: A Space Odyssey](/img/2001-monolith-1.png)
 
 Using an LLM reminds me of apes discovering the monolith in 2001: A Space Odyssey. It’s a fitting metaphor since we don’t quite know what goes on inside the black box, and like in the movie, touching it reveals new possibilities.
 
@@ -44,6 +44,8 @@ Fast vibe checking is how app devs learnt CSS flexbox and JavaScript, through to
 [Screenshots in a blog post](https://blog.roboflow.com/first-impressions-with-google-gemini/) say more about model capabilities to an app dev than scientific benchmarks. Twitter, Reddit are full of examples where devs show what a model can do and how it compares against alternatives. It feels like these communities have become the focal point for discovering this black box together, like apes around the monolith.
 
 We believe content creators can leverage more powerful tools that go beyond screenshots, and provide content consumers the opportunity to start their own experiments from where they left off.
+
+![Monolith from 2001: A Space Odyssey](/img/2001-monolith-2.png)
 
 ## Our focus for 2024
 
