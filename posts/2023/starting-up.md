@@ -3,7 +3,7 @@ title: "Building for the AI engineer"
 date: 2023-12-30
 tags: ["career"]
 recommended: true
-coverImage: "/img/2001-monolith-1.png"
+coverImage: "/img/2001-monolith-1-min.png"
 description: "A new startup, coming to you in 2024"
 ---
 
