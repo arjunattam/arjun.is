@@ -4,7 +4,7 @@ date: 2023-12-30
 tags: ["career"]
 recommended: true
 coverImage: "/img/2001-monolith-1.png"
-description: "I'm building a new startup in 2024"
+description: "A new startup, coming to you in 2024"
 ---
 
 ![Monolith from 2001: A Space Odyssey](/img/2001-monolith-1.png)
