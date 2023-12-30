@@ -3,3 +3,4 @@ node_modules/
 package-lock.json
 .env
 scripts/.cached-issues.json
+*.DS_Store
