@@ -19,8 +19,8 @@
     <script defer src="/_vercel/insights/script.js"></script>
 
     <!-- Meta tags -->
-    <meta property="og:image" content="{{ coverImage or '/img/arjun2.jpg' | url }}" />
-    <meta property="og:image:secure_url" content="{{ coverImage or '/img/arjun2.jpg' | url }}" />
+    <meta property="og:image" content="{{ (coverImage or '/img/arjun2.jpg') | htmlBaseUrl('https://arjun.is/') }}" />
+    <meta property="og:image:secure_url" content="{{ (coverImage or '/img/arjun2.jpg') | htmlBaseUrl('https://arjun.is/') }}" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@arjunattam" />

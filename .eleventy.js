@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const md = require("markdown-it");
 const anchor = require("markdown-it-anchor");
 const footnote = require("markdown-it-footnote");
@@ -74,6 +75,10 @@ module.exports = function(eleventyConfig) {
     return n;
   };
   eleventyConfig.setLibrary("md", markdownLibrary);
+
+  // To create full urls (required for og:image tag)
+  // https://www.11ty.dev/docs/plugins/html-base/
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   return {
     templateFormats: [
