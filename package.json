@@ -1,5 +1,8 @@
 {
   "name": "eleventy-base-blog",
+  "engines": {
+    "node": "26.x"
+  },
   "scripts": {
     "prebuild": "node scripts/fetchPosts.js",
     "build": "eleventy",
