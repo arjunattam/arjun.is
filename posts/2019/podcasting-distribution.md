@@ -27,7 +27,7 @@ If our assumption is valid, podcast listeners would have a healthy conversion fr
 
 Let's look Google Analytics numbers for the website, bifurcated by OS platform.
 
-![Website visitors, between May 1 and July 14, 2019](/img/podcast-distribution/ga.png)
+![Website visitors, between May 1 and July 14, 2019](/img/podcast-distribution/ga.png)\
 _Website visitors, between May 1 and July 14, 2019_
 
 A few things to note here:
@@ -40,7 +40,7 @@ A few things to note here:
 
 Limitations of podcast analytics deserve another blog post. For this analysis, we are going to use our downloads data. Given an IP address and user agent for every download, it is possible to estimate the location and the app used. We use [Transistor](https://transistor.fm/) for hosting the podcast, and these charts are from their analytics page.
 
-![Episode downloads](/img/podcast-distribution/downloads-all.png)
+![Episode downloads](/img/podcast-distribution/downloads-all.png)\
 _Episode downloads, till July 14, 2019_
 
 From the distribution of popular players, we can see that:
@@ -54,7 +54,7 @@ Given this bias, I'm tempted to interpret browser downloads as trial runs: users
 
 In either case, browser listeners are not regular subscribers. At best, they consumed a free trial, and will not be notified when a new episode comes out. We need to look at app downloads in more detail.
 
-![Episode downloads - apps only](/img/podcast-distribution/downloads-apps.png)
+![Episode downloads - apps only](/img/podcast-distribution/downloads-apps.png)\
 _Episode downloads, apps only, till July 14, 2019_
 
 Among app downloads:
