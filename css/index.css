@@ -455,3 +455,45 @@ td:first-child,
 th:first-child {
   width: 35%;
 }
+
+/** Diagrams (Mermaid rendered by Pele, see /pele/) **/
+figure.diagram {
+  margin: 2.25rem 0;
+}
+
+figure.diagram.wide {
+  width: min(calc(100vw - 2rem), 860px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+figure.diagram pre.mermaid {
+  --pele-font: var(--sans-fonts);
+  --pele-font-mono: var(--mono-fonts);
+  --pele-bg: var(--bg-black);
+  --pele-fg: var(--white);
+  --pele-muted: var(--text-gray);
+  --pele-line: #5c6266;
+  --pele-surface: #151d22;
+  --pele-surface-alt: #11181c;
+  --pele-border: #2f3a40;
+  --pele-accent: var(--green);
+  --pele-radius: 6px;
+  --pele-title-weight: 500;
+  --pele-heading-weight: 500;
+  font-family: var(--sans-fonts);
+  background: transparent;
+  color: transparent;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+}
+
+figure.diagram figcaption {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-gray);
+}

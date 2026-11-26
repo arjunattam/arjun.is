@@ -37,4 +37,12 @@ layout: layouts/base.njk
   </article>
 </main>
 
+{% if 'class="mermaid"' in content %}
+<script src="https://cdn.jsdelivr.net/npm/pele@1.13.0/dist/pele.global.js"></script>
+<script>
+  // Add data-lr to a <pre class="mermaid"> to keep its direction as written.
+  for (const el of document.querySelectorAll('pre.mermaid')) pele.mount(el, el.textContent, { fontSize: 13, autoDirection: !('lr' in el.dataset) });
+</script>
+{% endif %}
+
 {% include "layouts/footer.njk" %}
