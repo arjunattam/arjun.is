@@ -1,17 +1,18 @@
-const { DateTime } = require("luxon");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation = require("@11ty/eleventy-navigation");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const md = require("markdown-it");
-const anchor = require("markdown-it-anchor");
-const footnote = require("markdown-it-footnote");
+import { DateTime } from "luxon";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginNavigation from "@11ty/eleventy-navigation";
+import { HtmlBasePlugin } from "@11ty/eleventy";
+import md from "markdown-it";
+import anchor from "markdown-it-anchor";
+import footnote from "markdown-it-footnote";
+import getTagList from "./_11ty/getTagList.js";
 
 function year(dateObj) {
   return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
 }
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -48,7 +49,7 @@ module.exports = function(eleventyConfig) {
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => n < 0 ? array.slice(n) : array.slice(0, n));
 
-  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+  eleventyConfig.addCollection("tagList", getTagList);
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
@@ -78,11 +79,10 @@ module.exports = function(eleventyConfig) {
 
   // To create full urls (required for og:image tag)
   // https://www.11ty.dev/docs/plugins/html-base/
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(HtmlBasePlugin);
 
   return {
     templateFormats: [
-      "pug",
       "md",
       "njk",
       "html",
