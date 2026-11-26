@@ -33,7 +33,7 @@ code {
 }
 
 pre > code {
-  padding: 0.125em 1em;
+  padding: 0;
 }
 
 :not(pre) > code {
@@ -76,7 +76,60 @@ a:hover {
 }
 
 pre {
-  border-radius: 4px;
+  border-radius: 6px;
+}
+
+/** Code blocks (overrides the prism theme) **/
+body pre[class*="language-"] {
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  background: #141c21;
+  border: 1px solid #1f2a30;
+}
+
+@media only screen and (min-width: 760px) {
+  body pre[class*="language-"] {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
+}
+
+body pre[class*="language-"] > code[class*="language-"] {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: none;
+  color: #c9d1d5;
+  line-height: 1.6;
+}
+
+body pre .token.punctuation,
+body pre .token.operator {
+  color: #7d878c;
+}
+
+body pre .token.property,
+body pre .token.attr-name {
+  color: var(--yellow);
+}
+
+body pre .token.string,
+body pre .token.attr-value {
+  color: var(--green);
+}
+
+body pre .token.number,
+body pre .token.boolean {
+  color: #f0a070;
+}
+
+body pre .token.keyword,
+body pre .token.tag {
+  color: #8fb8f0;
+}
+
+body pre .token.comment {
+  color: #5d686e;
+  font-style: italic;
 }
 
 /** Container **/
