@@ -29,8 +29,18 @@ blockquote {
 }
 
 code {
-  padding: 0.125em 1em;
   font-family: var(--mono-fonts);
+}
+
+pre > code {
+  padding: 0.125em 1em;
+}
+
+:not(pre) > code {
+  font-size: 0.875em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background-color: var(--bg-gray);
 }
 
 hr {
