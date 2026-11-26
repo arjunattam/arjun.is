@@ -376,3 +376,29 @@ a.header-anchor {
   margin: 25px 0;
   width: 100%;
 }
+/** Tables **/
+table {
+  width: 100%;
+  margin: 1.5em 0;
+  border-collapse: collapse;
+  font-size: 0.9375em;
+  line-height: 1.5;
+}
+
+th,
+td {
+  padding: 0.5em 0.75em;
+  border-bottom: 1px solid var(--bg-gray);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  font-weight: 600;
+  color: var(--text-gray);
+}
+
+td:first-child,
+th:first-child {
+  width: 35%;
+}
