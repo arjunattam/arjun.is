@@ -41,7 +41,8 @@ layout: layouts/base.njk
 <script src="https://cdn.jsdelivr.net/npm/pele@1.13.0/dist/pele.global.js"></script>
 <script>
   // Add data-lr to a <pre class="mermaid"> to keep its direction as written.
-  for (const el of document.querySelectorAll('pre.mermaid')) pele.mount(el, el.textContent, { fontSize: 13, autoDirection: !('lr' in el.dataset) });
+  // Set `diagramZoom: false` in a post's front matter to turn off zoom controls.
+  for (const el of document.querySelectorAll('pre.mermaid')) pele.mount(el, el.textContent, { fontSize: 13, autoDirection: !('lr' in el.dataset){% if diagramZoom === false %}, zoom: false{% endif %} });
 </script>
 {% endif %}
 
